@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,22 +8,15 @@
     <title>Zoom Car</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="header">
-        <div><img src="images\ham.png" id="ham"></div>
-        <div><img src="images\nav_logo.png" id="nav_logo"></div>
-        <div id="nav">
-            <ul>
-                <li>Become a Host</li>
-                <li>ZMS</li>
-                <li>Login/Signup</li>
-            </ul>
-        </div>
+    <div class="header" id="header">
+        <!--  -->
     </div>
 
     <div class="top">
         <div class="selection">
-    
+
             <div class="ride-selection">
                 <span>Round Trip</span>
                 <i class="down-icon"></i>
@@ -37,9 +31,28 @@
                     </a>
                 </div>
             </div>
-            <div></div>
+            <div class="btn-wrapper">
+                <button disabled="disabled" class="btn-primary">FIND CARS</button>
+                
+            </div>
 
         </div>
     </div>
 </body>
+
 </html>
+
+<script type="module">
+
+    import navbar from "./components/navbar.js";
+
+    let header = document.getElementById("header");
+
+    header.innerHTML = navbar();
+
+</script>
+
+<script>
+    // let btn = document.querySelector(".btn-primary");
+    // btn.removeAttribute("disabled");
+</script>
