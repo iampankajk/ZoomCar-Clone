@@ -53,6 +53,7 @@
     padding: 350px 16px 16px 16px;
     margin: 0px auto;
     max-width: 440px;
+    font-size: 14px;
 }
 
 .ride-selection{
@@ -65,5 +66,42 @@
     width: 24px;
     height: 24px;
     display: block;
+}
+
+.box{
+    border: solid 1px #e0e0e0;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+.box .wrap{
+    background-color: white;
+    border-radius: 4px;
+}
+.select-address{
+    margin-left: 8px;
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    color: #1f1f1f;
+}
+
+.green-icon{
+    min-width: 8px;
+    min-height: 8px;
+    border-radius: 50%;
+    background-color: #10a310;
+    box-shadow: 0 0 8px 8px #e6ffea;
+    margin-left: 8px;
+    margin-right: 16px;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+.box .wrap .select-address .placeholder{
+    color: #a8a8a8;
+    flex: 1;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 /* top-end */
