@@ -80,6 +80,16 @@
     background-color: white;
     border-radius: 4px;
 }
+/* .box .wrap-two{
+    display: none;
+} */
+.box .wrap-two::before{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    border-top: 1px solid #e0e0e0;
+}
 .select-address{
     margin-left: 8px;
     margin-right: 8px;
@@ -93,6 +103,14 @@
     min-height: 8px;
     border-radius: 50%;
     background-color: #10a310;
+    box-shadow: 0 0 8px 8px #e6ffea;
+    margin-left: 8px;
+    margin-right: 16px;
+}
+.red-icon{
+    min-width: 8px;
+    min-height: 8px;
+    background-color: #e02d2d;
     box-shadow: 0 0 8px 8px #e6ffea;
     margin-left: 8px;
     margin-right: 16px;
