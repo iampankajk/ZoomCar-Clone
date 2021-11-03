@@ -10,9 +10,20 @@
 </head>
 
 <body>
+    <!-- header start -->
     <div class="header" id="header">
-        <!--  -->
+        <div><img src="images\\ham.png" id="ham" onclick="show()"></div>
+        <div><img src="images\\nav_logo.png" id="nav_logo"></div>
+        <div id="nav">
+            <ul>
+                <li>Become a Host</li>
+                <li>ZMS</li>
+                <li>Login/Signup</li>
+            </ul>
+        </div>
     </div>
+
+    <!-- header end -->
 
     <!-- top-start -->
 
@@ -182,17 +193,33 @@
 
 </html>
 
-<script type="module">
-
-    import navbar from "./components/navbar.js";
-
-    let header = document.getElementById("header");
-
-    header.innerHTML = navbar();
-
-</script>
 
 <script>
     // let btn = document.querySelector(".btn-primary");
     // btn.removeAttribute("disabled");
+   function show(){
+       let sidebar_component=document.querySelector(".sidebar-component");
+       sidebar_component.style.display = "block";
+
+       let sidebar = document.querySelector(".sidebar");
+       sidebar.style.transform = "translate3d(0%, 0px, 0px)";
+
+       let sidebar_ovl = document.querySelector(".sidebar-ovl");
+       sidebar_ovl.style.opacity = "1";
+       sidebar_ovl.style.pointerEvents = "auto";
+       sidebar_ovl.addEventListener("click",hide);
+   }
+
+   function hide(){
+    let sidebar_component=document.querySelector(".sidebar-component");
+       sidebar_component.style.display = "none";
+
+       let sidebar = document.querySelector(".sidebar");
+       sidebar.style.transform = "translate3d(-102%, 0, 0)";
+
+       let sidebar_ovl = document.querySelector(".sidebar-ovl");
+       sidebar_ovl.style.opacity = "0";
+
+       sidebar_ovl.removeEventListener("click",hide);
+   }
 </script>

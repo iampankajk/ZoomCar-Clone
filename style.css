@@ -12,9 +12,11 @@
     color: white;
     align-items: center;
     display: flex;
+   
 }
 #ham{
     width: 30px;
+    cursor: pointer;
 }
 .header>div:nth-child(2){
     padding-left: 10px;
@@ -37,6 +39,7 @@
 
 .header>#nav>ul>li{
    margin: auto;
+   cursor: pointer;
 }
 
 /* header-end */
@@ -292,13 +295,13 @@ a{
     top: 0;
     left: 0;
     z-index: 10;
+    display: none;
 }
 
 .sidebar-component .sidebar-ovl{
     position: absolute;
     height: 100%;
     background: rgba(0,0,0,0.6);
-    opacity: 0;
     will-change: opacity;
     width: 100%;
     pointer-events: none;
@@ -312,9 +315,9 @@ a{
     height: 120%;
     top: 0;
     left: 0;
-    /* -webkit-transform: translate3d(-102%, 0, 0);
-    transform: translate3d(-102%, 0, 0); */
-    will-change: "transform";
+    -webkit-transform: translate3d(-102%, 0, 0);
+    transform: translate3d(-102%, 0, 0);
+    will-change: 'transform';
     box-shadow: 3px 0 8px 1px rgba(0,0,0,0.4);
     max-width: 400px;
 }
