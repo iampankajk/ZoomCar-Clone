@@ -317,9 +317,10 @@ a{
     left: 0;
     -webkit-transform: translate3d(-102%, 0, 0);
     transform: translate3d(-102%, 0, 0);
-    will-change: 'transform';
+    will-change: transform;
     box-shadow: 3px 0 8px 1px rgba(0,0,0,0.4);
     max-width: 400px;
+   
 }
 
 .sidebar-component nav.list .item{
