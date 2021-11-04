@@ -114,7 +114,7 @@
     min-width: 8px;
     min-height: 8px;
     background-color: #e02d2d;
-    box-shadow: 0 0 8px 8px #e6ffea;
+    box-shadow: 0 0 8px 8px #fff3f0;    
     margin-left: 8px;
     margin-right: 16px;
 }
@@ -322,7 +322,9 @@ a{
     max-width: 400px;
    
 }
-
+.not-loggedin{
+    background-color: #e5e8ec;
+}
 .sidebar-component nav.list .item{
     padding: 13px 16px;
     color: #4d4d4d;
