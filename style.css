@@ -161,6 +161,125 @@ a{
 }
 /* top-end */
 
+/* location-page-start */
+
+.location-page{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    background: #fff;
+    z-index: 999;
+    -webkit-animation: 0.3s fadeInUp ease;
+    animation: 0.3s fadeInUp ease;
+}
+
+.location-page .header{
+    position: relative;
+    background-color: white;
+    padding: 16px;
+}
+.main{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%
+}
+
+.component-address-picker{
+    padding: 16px;
+    color: #1f1f1f;
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    border-style: hidden;
+    color: #a8a8a8;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+.component-address-picker .my-location,.component-address-picker .map{
+    display: flex;
+    align-items: center;
+    padding: 16px 0;
+    color: #1f1f1f;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+
+.pointer{
+    cursor: pointer;
+}
+.icon.icon-arrow-left{
+    background-image: url("images\\icons_arrows_arrow_left.png");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+    margin-right: 16px;
+}
+.icon.icon-my-location{
+    background-image: url("images\\cur-loc.png");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+    margin-right: 16px;
+}
+
+.icon.icon-location{
+    background-image: url("images\\icons_location.png");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+    margin-right: 16px;
+}
+.icon.icon-map{
+    background-image: url("images\\icon-map.png");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+    margin-right: 16px;
+}
+
+.suggested h3{
+    background-color: #f5f5f5;
+    padding: 8px;
+    margin: 16px 0 0 0;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.suggested>div{
+    display: flex;
+    align-items: center;
+    padding: 16px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+/* location-page-end */
+
 /* promo-start */
 
 .promo{

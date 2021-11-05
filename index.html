@@ -29,14 +29,14 @@
 
     <div class="top">
         <div class="selection">
-
-            <div class="ride-selection">
+            <form action="#">
+                 <div class="ride-selection">
                 <span>Round Trip</span>
                 <i class="down-icon"></i>
             </div>
             <div class="box">
                 <div class="wrap">
-                    <a href="#">
+                    <a href="location.html">
                         <div class="select-address">
                             <div class="green-icon"></div>
                             <div class="placeholder">Pick Up City, Airport, Address or Hotel</div>
@@ -44,7 +44,7 @@
                     </a>
                 </div>
                 <div class="wrap wrap-two">
-                    <a href="#">
+                    <a href="location.html">
                         <div class="select-address">
                             <div class="red-icon"></div>
                             <div class="placeholder">Drop Off City, Airport, Address or Hotel</div>
@@ -56,13 +56,15 @@
                 <button disabled="disabled" class="btn-primary">FIND CARS</button>
 
             </div>
+            </form>
+           
 
         </div>
     </div>
 
     <!-- top-end -->
 
-
+   
     <!-- promo-start -->
 
     <div class="promo-container">
@@ -197,29 +199,29 @@
 <script>
     // let btn = document.querySelector(".btn-primary");
     // btn.removeAttribute("disabled");
-   function show(){
-       let sidebar_component=document.querySelector(".sidebar-component");
-       sidebar_component.style.display = "block";
+    function show() {
+        let sidebar_component = document.querySelector(".sidebar-component");
+        sidebar_component.style.display = "block";
 
-       let sidebar = document.querySelector(".sidebar");
-       sidebar.style.transform = "translate3d(0%, 0px, 0px)";
+        let sidebar = document.querySelector(".sidebar");
+        sidebar.style.transform = "translate3d(0%, 0px, 0px)";
 
-       let sidebar_ovl = document.querySelector(".sidebar-ovl");
-       sidebar_ovl.style.opacity = "1";
-       sidebar_ovl.style.pointerEvents = "auto";
-       sidebar_ovl.addEventListener("click",hide);
-   }
+        let sidebar_ovl = document.querySelector(".sidebar-ovl");
+        sidebar_ovl.style.opacity = "1";
+        sidebar_ovl.style.pointerEvents = "auto";
+        sidebar_ovl.addEventListener("click", hide);
+    }
 
-   function hide(){
-    let sidebar_component=document.querySelector(".sidebar-component");
-       sidebar_component.style.display = "none";
+    function hide() {
+        let sidebar_component = document.querySelector(".sidebar-component");
+        sidebar_component.style.display = "none";
 
-       let sidebar = document.querySelector(".sidebar");
-       sidebar.style.transform = "translate3d(-102%, 0, 0)";
+        let sidebar = document.querySelector(".sidebar");
+        sidebar.style.transform = "translate3d(-102%, 0, 0)";
 
-       let sidebar_ovl = document.querySelector(".sidebar-ovl");
-       sidebar_ovl.style.opacity = "0";
+        let sidebar_ovl = document.querySelector(".sidebar-ovl");
+        sidebar_ovl.style.opacity = "0";
 
-       sidebar_ovl.removeEventListener("click",hide);
-   }
+        sidebar_ovl.removeEventListener("click", hide);
+    }
 </script>
