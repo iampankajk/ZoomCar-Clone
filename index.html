@@ -31,7 +31,7 @@
         <div class="top">
             <div class="selection">
                 <form action="#">
-                    <div class="ride-selection">
+                    <div class="ride-selection pointer" onclick="showPopup()">
                         <span>Round Trip</span>
                         <i class="down-icon"></i>
                     </div>
@@ -133,7 +133,38 @@
 
     </div>
 
+    <!-- pop-up-start -->
+    <div class="popup-model show-popup">
+        <div class="bg-transparent"></div>
+        <div class="popup-content slide-up">
+            <div class="close-btn" onclick="closePopup()">
+                <i class="z-close"></i>
+            </div>
+            <div>
+                <div class="trip-options">
+                    <div class="city-selection">
+                        <h6>Travelling From</h6>
+                        <div class="city pointer">
+                            <img src="images\delhincr.png" >
+                            Delhi NCR
+                            <i class="down-icon"></i>
+                        </div>
+                    </div>
+                    <div class="trip-option-select o-1">
+                        <h3>Schedule a Round Trip</h3>
+                        <p>Outstation Road Trips, Long Drives, Shopping Malls etc.</p>
+                    </div>
+                    <div class="trip-option-select o-2">
+                        <h3>One-Way to Nearby Cities</h3>
+                        <p>Drop off in a nearby city after a one-way trip.</p>
+                    </div>
+                    
 
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- pop-up-end -->
 
     <!-- side-bar-start -->
 
@@ -228,5 +259,17 @@
         sidebar_ovl.style.opacity = "0";
 
         sidebar_ovl.removeEventListener("click", hideSideBar);
+    }
+
+
+    // function for choosing trip option
+    function showPopup(){
+        let show_trip = document.querySelector(".show-popup");
+        show_trip.style.display = "block";
+    }
+    
+    function closePopup(){
+        let show_trip = document.querySelector(".show-popup");
+        show_trip.style.display = "none";
     }
 </script>
