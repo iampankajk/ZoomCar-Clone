@@ -1,0 +1,138 @@
+* {
+  font-family: IBM Plex Sans !important;
+  margin: 0px;
+  padding: 0px;
+}
+.main-section {
+  background: url(https://www.zoomcar.com/assets/component-images/ZMS-Hero-Banner.584135fee08ac6c84fee329d5fb915f4.jpg);
+  height: 98 vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size: cover;
+  background-position: 50% 75%;
+}
+.mobility-service-header {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0px;
+  position: sticky;
+  background-color: #1f1f1f;
+  top: -1;
+  z-index: 10;
+  width: 100%;
+}
+.mobility-service-header > img {
+  align-self: center;
+  height: 24px;
+}
+.mobility-service-header > .demo-cta {
+  padding: 10px 17px 10px 18px;
+  border-radius: 4px;
+  border: 1px solid #e0e0e0;
+  background-color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  /* font-stretch: normal;
+  font-style: normal; */
+  line-height: 1.43;
+  /* letter-spacing: 0.24px; */
+  text-align: center;
+  color: #1f1f1f;
+  outline: none;
+  cursor: pointer;
+}
+.section-data {
+  max-width: 500px;
+  margin: 152.75px;
+}
+.main-heading {
+  font-size: 36px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+.main-sub-heading {
+  font-size: 16px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.24px;
+  text-align: center;
+  color: #fff;
+  padding-top: 16 px;
+}
+.cta-container {
+  display: flex;
+  justify-content: center;
+}
+.btn-cta {
+  padding: 12px 33.7px 12px 34px;
+  border: none;
+  border-radius: 4px;
+  background-color: #10a310;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  min-width: 220px;
+  outline: none;
+  cursor: pointer;
+  margin-top: 48px;
+}
+/*  */
+/* Footer */
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  padding-top: 84px;
+  padding-bottom: 64px;
+  background-image: linear-gradient(270deg, #000, #1f1f1f);
+  /* font-family: IBM Plex Sans; */
+}
+.for-more-info {
+  font-size: 16px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.24px;
+  text-align: center;
+  color: #fff;
+}
+.mailId {
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 0.16px;
+  text-align: center;
+  color: #fff;
+  padding-top: 8px;
+}
+.footer-section > img {
+  align-self: center;
+  height: 24px;
+  padding-top: 80px;
+}
+.copyright {
+  font-size: 16px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.24px;
+  text-align: center;
+  color: #a8a8a8;
+  padding-top: 28px;
+}
