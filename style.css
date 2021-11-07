@@ -83,9 +83,9 @@
     background-color: white;
     border-radius: 4px;
 }
-/* .box .wrap-two{
+.box .wrap-two{
     display: none;
-} */
+}
 .box .wrap-two::before{
     content: "";
     display: block;
