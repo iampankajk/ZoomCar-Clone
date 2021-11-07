@@ -32,7 +32,7 @@
             <div class="selection">
                 <form action="#">
                     <div class="ride-selection pointer" onclick="showPopup()">
-                        <span>Round Trip</span>
+                        <span id="trips">Round Trip</span>
                         <i class="down-icon"></i>
                     </div>
                     <div class="box">
@@ -150,11 +150,11 @@
                             <i class="down-icon"></i>
                         </div>
                     </div>
-                    <div class="trip-option-select o-1">
+                    <div class="trip-option-select o-1 pointer">
                         <h3>Schedule a Round Trip</h3>
                         <p>Outstation Road Trips, Long Drives, Shopping Malls etc.</p>
                     </div>
-                    <div class="trip-option-select o-2">
+                    <div class="trip-option-select o-2 pointer">
                         <h3>One-Way to Nearby Cities</h3>
                         <p>Drop off in a nearby city after a one-way trip.</p>
                     </div>
@@ -266,10 +266,30 @@
     function showPopup(){
         let show_trip = document.querySelector(".show-popup");
         show_trip.style.display = "block";
+        let trip_option1 = document.querySelector(".trip-option-select.o-1");
+        trip_option1.addEventListener("click",roundTrip);
+        let trip_option2 = document.querySelector(".trip-option-select.o-2");
+        trip_option2.addEventListener("click",oneWay);
     }
     
     function closePopup(){
         let show_trip = document.querySelector(".show-popup");
         show_trip.style.display = "none";
+    }
+
+
+    // selecting round-trip from options function
+    function roundTrip(){
+        let trip_option = document.getElementById("trips");
+        trip_option.innerText = "Round Trip";
+        closePopup();
+
+    }
+    // selecting one-way-trip from options function
+    function oneWay(){
+        let trip_option = document.getElementById("trips");
+        trip_option.innerText = "One Way Trip";
+        closePopup();
+
     }
 </script>
