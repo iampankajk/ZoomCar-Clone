@@ -128,9 +128,9 @@
         let res = await fetch(`http://localhost:5000/api/products/${cardata}`)
 
         let data = await res.json()
-        console.log(data.Search)
+        console.log(data)
 
-        showData(data.Search)
+        showData(data)
 
     }
 
