@@ -1,0 +1,124 @@
+{
+    "products": [{
+            "id": "Mumbai",
+            "name": "Maruti Suzuki",
+            "price": "₹ 1140",
+            "img": "https://s3-ap-southeast-1.amazonaws.com/zoomcar/photographs/original/6a75117e054e7d3bbe9ff6e431008679994c1d71.png?1584525114"
+        },
+        {
+            "id": "Delhi",
+            "name": "Tata Naxon",
+            "price": "₹ 1350",
+            "img": "https://s3-ap-southeast-1.amazonaws.com/zoomcar/photographs/original/1a46bbfce3d72635ae64a06e6bbb8f8745d41108.png?1584524485"
+        },
+        {
+            "id": "Bangalore",
+            "name": "Tata Tiago",
+            "price": "₹ 1120",
+            "img": "https://s3-ap-southeast-1.amazonaws.com/zoomcar/photographs/original/cd9baf9b5631dbccda29dbfac1ab4a23a25f7fb6.png?1584525308"
+        },
+        {
+            "id": "Pune",
+            "name": "Ford Freestyle",
+            "price": "₹ 1300",
+            "img": "https://s3-ap-southeast-1.amazonaws.com/zoomcar/photographs/original/9a1223f6808fd914fec05710f2a96f1c83fbb307.png?1584524611"
+        },
+        {
+            "id": "Chennai",
+            "name": "Tata Tigor",
+            "price": "₹ 1200",
+            "img": "https://s3-ap-southeast-1.amazonaws.com/zoomcar/photographs/original/55cf48c3aca88c14b839a360411dfe0dcc761c5a.jpg?1618911344"
+        },
+        {
+            "id": "Surat",
+            "name": "Maruti Celerio",
+            "price": "₹ 1400",
+            "img": "https://s3-ap-southeast-1.amazonaws.com/zoomcar/photographs/original/cd1b6405a3e9eaea5f60494c66fde0666ba5cdec.jpg?1615961407"
+        },
+        {
+            "id": "Lucknow",
+            "name": "Renault Triber",
+            "price": "₹ 1000",
+            "img": "https://s3-ap-southeast-1.amazonaws.com/zoomcar/photographs/original/a264d61ba6289d5292dbaad09e2dbf2a81a02cbe.JPG?1624370181"
+        },
+        {
+            "id": "Bhopal",
+            "name": "Hyundai Creta",
+            "price": "₹ 1500",
+            "img": "https://s3-ap-southeast-1.amazonaws.com/zoomcar/photographs/original/20070f9f819b45a90da8e67f51b2d76b59e6c8e7.png?1584525395"
+        },
+        {
+            "id": "Agra",
+            "name": "Tata Naxon",
+            "price": "₹ 1350",
+            "img": "https://s3-ap-southeast-1.amazonaws.com/zoomcar/photographs/original/741d5e6e6b4a35cc2623eaf23e251357903995a1.jpg?1628513745"
+        },
+        {
+            "id": "Pune",
+            "name": "Tata Tiago",
+            "price": "₹ 1120",
+            "img": "https://s3-ap-southeast-1.amazonaws.com/zoomcar/photographs/original/21af43901a422cbed536fbac39ab2f1b367515ec.png?1622094998"
+        },
+        {
+            "id": "Pune",
+            "name": "Ford Freestyle",
+            "price": "₹ 1300",
+            "img": "https://s3-ap-southeast-1.amazonaws.com/zoomcar/photographs/original/505efec88be6f25bb3ffabbd6c6107629c88e169.jpg?1621260721"
+        },
+        {
+            "id": "Delhi",
+            "name": "Tata Tigor",
+            "price": "₹ 1200",
+            "img": "https://s3-ap-southeast-1.amazonaws.com/zoomcar/photographs/original/fb88b893d54a0220d775621564f74800f241fcbc.png?1584524717"
+        },
+        {
+            "id": "Delhi",
+            "name": "Maruti Celerio",
+            "price": "₹ 1400",
+            "img": "https://s3-ap-southeast-1.amazonaws.com/zoomcar/photographs/original/4f978e418417cef5f069be1c013ee75b34c294ce.png?1613648724"
+        },
+        {
+            "id": "Mumbai",
+            "name": "Renault Triber",
+            "price": "₹ 1000",
+            "img": "https://s3-ap-southeast-1.amazonaws.com/zoomcar/photographs/original/0cd4260691b39e32cfc2622496fb431e0b94f110.png?1584524343"
+        },
+        {
+            "id": "Bangalore",
+            "name": "Hyundai Creta",
+            "price": "₹ 1500",
+            "img": "https://s3-ap-southeast-1.amazonaws.com/zoomcar/photographs/original/b181fa4f49687de9d7e7b7a23f736d202cf2bbff.png?1584514541"
+        },
+        {
+            "id": "Bangalore",
+            "name": "Tata Tigor",
+            "price": "₹ 1200",
+            "img": "https://s3-ap-southeast-1.amazonaws.com/zoomcar/photographs/original/96a302e568c38651107569db39aec596443c8d6b.png?1584525890"
+        },
+        {
+            "id": "Mumbai",
+            "name": "Maruti Celerio",
+            "price": "₹ 1400",
+            "img": "https://s3-ap-southeast-1.amazonaws.com/zoomcar/photographs/original/e47541c407f8ee906e9fa81c43c732ada5614617.png?1584526352"
+        },
+        {
+            "id": "Mumbai",
+            "name": "Renault Triber",
+            "price": "₹ 1000",
+            "img": "https://s3-ap-southeast-1.amazonaws.com/zoomcar/photographs/original/9eb63e28e7b5322a21d0f57a9557869700b60e71.png?1584524284"
+        },
+        {
+            "id": "Mumbai",
+            "name": "Hyundai Creta",
+            "price": "₹ 1500",
+            "img": "https://s3-ap-southeast-1.amazonaws.com/zoomcar/photographs/original/b181fa4f49687de9d7e7b7a23f736d202cf2bbff.png?1584514541"
+        },
+        {
+            "id": "Mumbai",
+            "name": "Mahindra KUV 100",
+            "price": "₹ 1500",
+            "img": "https://s3-ap-southeast-1.amazonaws.com/zoomcar/photographs/original/ab63c8691611d6cded9645f890b541b2b1e5b39b.png?1584525869"
+        }
+
+    ]
+}
