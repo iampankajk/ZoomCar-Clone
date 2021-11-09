@@ -107,59 +107,55 @@
             </div>
 
 
-            <div id="products"> </div>
+            <div>
+                <input type="text" name="" id="name" placeholder="Enter City Name">
+                <button onclick="getcar()">Search</button>
+                <div id="cont"></div>
+            </div>
 
         </div>
 
     </div>
 
-    <div>
-        <input type="text" id="id" placeholder="id">
-        <button onclick="addProduct()"> addProduct</button>
-    </div>
 
-    <div>
-        <input type="text" id="product_id" placeholder="id">
-        <button onclick="showProduct()"> deleteProduct</button>
-    </div>
 </body>
 
 </html>
 
 <script>
-    async function addProduct() {
+    async function getcar() {
+        let cardata = document.getElementById('name').value
+        let res = await fetch(`http://localhost:5000/api/products/${cardata}`)
 
-        let data = {
-            id: document.getElementById('id').value,
+        let data = await res.json()
+        console.log(data.Search)
 
-        };
+        showData(data.Search)
 
-        try {
-            let response = await fetch(`http://localhost:5000/api/products`, {
-                method: 'POST',
-                body: JSON.stringify(data),
-                headers: {
-                    "Content-Type": "application/json",
-                },
-            });
-
-            let d = await response.json();
-            console.log("d", d);
-        } catch (e) {
-            console.log(e);
-        }
     }
 
 
-    async function ShowProduct() {
+    let parent = document.getElementById('cont')
 
-        let id = document.getElementById("product_id").value;
-        let response = await fetch(`http://localhost:5000/api/products/${id}`, {
-            method: "DELETE",
-            headers: {
-                "Content-Type": "application/json",
+    function showData(cars) {
+        parent.innerHTML = null
 
-            },
-        });
+        cars.forEach(function(car) {
+
+            let div = document.createElement('div')
+
+            let img = document.createElement('img')
+            img.src = car.img
+
+            let name = document.createElement('h3')
+            title.innerText = car.name
+
+            div.append(img, name)
+
+            parent.append(div)
+
+        })
+
+
     }
 </script>
