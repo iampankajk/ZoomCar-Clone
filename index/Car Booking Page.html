@@ -158,4 +158,17 @@
 
 
     }
+
+
+    // getting data
+    async function getData(){
+        let data = await fetch("http://localhost:5000/api/products/");
+
+        data = await data.json();
+        console.log(data);
+        console.log(data.Delhi);
+
+    }
+
+    getData();
 </script>

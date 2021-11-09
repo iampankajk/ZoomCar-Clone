@@ -1,7 +1,8 @@
 {
-    "products": [{
-
-            "Delhi": [{
+    "products": 
+        {
+            "Delhi": [
+                {
                     "City": "Delhi",
                     "location": "1.5Km Delhi Airport",
                     "name": "Maruti Celerio",
@@ -51,11 +52,11 @@
                     "Rating": "4.2",
                     "img": "https://s3-ap-southeast-1.amazonaws.com/zoomcar/photographs/original/20070f9f819b45a90da8e67f51b2d76b59e6c8e7.png?1584525395"
                 }
-            ]
-        },
-        {
-
-            "Mumbai": [{
+            ],
+        
+        
+            "Mumbai": [
+                {
                     "City": "Mumbai",
                     "location": "0.7Km Mumbai Airport",
                     "name": "Maruti Suzuki",
@@ -105,10 +106,11 @@
                     "Rating": "3.7",
                     "img": "https://s3-ap-southeast-1.amazonaws.com/zoomcar/photographs/original/55cf48c3aca88c14b839a360411dfe0dcc761c5a.jpg?1618911344"
                 }
-            ]
-        },
-        {
-            "Pune": [{
+            ],
+        
+        
+            "Pune": [
+                {
                     "City": "Pune",
                     "location": "1.5Km Pune Airport",
                     "name": "Tata Naxon",
@@ -158,11 +160,11 @@
                     "Rating": "4.1",
                     "img": "https://s3-ap-southeast-1.amazonaws.com/zoomcar/photographs/original/741d5e6e6b4a35cc2623eaf23e251357903995a1.jpg?1628513745"
                 }
-            ]
-        },
-        {
-
-            "Bangalore": [{
+            ],
+        
+        
+            "Bangalore": [
+                {
                     "City": "Bangalore",
                     "location": "1.5Km Bangalore Airport",
                     "name": "Hyundai Creta",
@@ -212,11 +214,11 @@
                     "Rating": "4.7",
                     "img": "https://s3-ap-southeast-1.amazonaws.com/zoomcar/photographs/original/20070f9f819b45a90da8e67f51b2d76b59e6c8e7.png?1584525395"
                 }
-            ]
-        },
-        {
-
-            "Patna": [{
+            ],
+        
+        
+            "Patna": [
+                {
                     "City": "Patna",
                     "location": "1.5Km Patna Airport",
                     "name": "Tata Naxon",
@@ -268,6 +270,5 @@
                 }
             ]
         }
-    ]
-
+    
 }
