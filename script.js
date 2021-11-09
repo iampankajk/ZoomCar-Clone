@@ -98,4 +98,13 @@ function oneWay() {
 
 }
 
+// About display toggle function
+function displayAbout(){
+    let aInner = document.querySelector(".aInner");
+    if(aInner.style.display=="block"){
+        aInner.style.display="none";
+    }else{
+        aInner.style.display="block";
+    }
 
+}
