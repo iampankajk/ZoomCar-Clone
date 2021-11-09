@@ -19,10 +19,26 @@
                 <div class="city-list">
                     <div class="title">Select your country/city</div>
                     <div class="dropdown-wrapper">
-                        
+                        <div>
+                            <select name="select_country" id="">
+                                <option value="">Select Country</option>
+                                <option value="india">India</option>
+                            </select>
+                        </div>
+                        <div>
+                            <select name="selected_city" id="selected_city" onchange="confirm()">
+                                <option value="Select City">Select City</option>
+                                <option value="Banglore">Banglore</option>
+                                <option value="Pune"> Pune</option>
+                                <option value="Delhi">Delhi NCR</option>
+                                <option value="Mumbai">Mumbai</option>
+                            </select>
+                        </div>
+
                     </div>
+                    <button disabled="disabled" class="city-box-btn" onclick="confirmCity()">Confirm</button>
                 </div>
-                
+
             </div>
         </div>
     </div>
@@ -162,9 +178,9 @@
                 <div class="trip-options">
                     <div class="city-selection">
                         <h6>Travelling From</h6>
-                        <div class="city pointer">
-                            <img src="images\delhincr.png" >
-                            Delhi NCR
+                        <div class="city pointer" onclick="changeCity()">
+                            <img src="images\delhincr.png">
+                            <span class="city-name">Delhi NCR</span>
                             <i class="down-icon"></i>
                         </div>
                     </div>
@@ -176,7 +192,7 @@
                         <h3>One-Way to Nearby Cities</h3>
                         <p>Drop off in a nearby city after a one-way trip.</p>
                     </div>
-                    
+
 
                 </div>
             </div>
@@ -198,7 +214,7 @@
                 <span>Login or Signup</span>
             </a>
             <nav class="list">
-                <a href="#" class="item f-1 a-i">
+                <a href="#" class="item f-1 a-i" onclick="changeCity()">
                     <div class="icon">
                         <i class="material-icons">
                             <img src="images\loc.png" class="d-img">
