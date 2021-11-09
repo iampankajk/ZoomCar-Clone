@@ -128,9 +128,9 @@
         let res = await fetch(`http://localhost:5000/api/products/${cardata}`)
 
         let data = await res.json()
-        console.log(data.Search)
+        console.log(data)
 
-        showData(data.Search)
+        showData(data)
 
     }
 
@@ -148,7 +148,7 @@
             img.src = car.img
 
             let name = document.createElement('h3')
-            title.innerText = car.name
+            name.innerText = car.name
 
             div.append(img, name)
 
