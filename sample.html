@@ -6,27 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .box{
-            width: 1200px;
-            margin: auto;
-            background-color: rgb(143, 163, 143);
-        }
+     
       
     </style>
 </head>
 <body>
-    <div class="box">
 
-        <input type="range" min="0" max="23.5" step=".5" oninput="display()" id="range">
-        <output class="out">0</output>
-    </div>
 </body>
 </html>
-
-<script>
-    function display(){
-        let out = document.querySelector(".out");
-        let value = document.getElementById("range").value;
-        out.innerHTML = value;
-    }
-</script>
