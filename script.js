@@ -12,6 +12,7 @@ function confirm() {
 // after changing the city name
 function confirmCity() {
     let selected_city = document.getElementById("selected_city").value;
+    localStorage.setItem("city",JSON.stringify([selected_city]));  //setting selecting city to local storage
     let city_name = document.querySelector(".city-name");
     let sm = document.querySelector(".sm");
     city_name.innerText = selected_city;
@@ -20,7 +21,15 @@ function confirmCity() {
     let city_box = document.querySelector(".city-box");
     city_box.style.display = "none";
 }
+let city_name = document.querySelector(".city-name");
+let sm = document.querySelector(".sm");
 
+let selected_city = JSON.parse(localStorage.getItem("city"))[0]; //getting selecting city to local storage
+
+
+// showing city name by getting 
+city_name.innerText = selected_city;
+sm.innerText = selected_city;
 
 // show change city block function
 function changeCity(){
