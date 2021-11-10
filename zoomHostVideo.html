@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="zoomcar.mp4"> 
+    <link rel="stylesheet" href="zoomcar.mp4">
     <link rel="stylesheet" href="zoomHostVideo.css">
-    
+
 </head>
 
 <body>
@@ -37,19 +37,23 @@
     </div>
     <div class="videoStories-timeline">
         <div class="videoStories-slice">
-            <div class="videoStories-progress" style="width: 65%;"></div>
+            <div class="videoStories-progress" style="width: 65%;" id="vsp"></div>
         </div>
         <div class="videoStories-slice">
             <div class="videoStories-progress" style="width: 80.466%;"></div>
         </div>
     </div>
-<br>
-<br>
+    <br>
+    <br>
 
-    
-<div class="video-stories-2">
-        <video poster="https://www.zoomcar.com/zap/subscribe/build/b5c19bd207922df056590ca18550c599.jpg" autoplay="autoplay" disablepictureinpicture="true" playsinline="true" webkit-playsinline="true" preload="auto" class="video-stories-2"><source src="zoomcar.mp4" type="video/mp4"></video> 
-        
+
+    <div class="video-stories-2">
+        <video poster="https://www.zoomcar.com/zap/subscribe/build/b5c19bd207922df056590ca18550c599.jpg" id="myvideo"
+           controls autoplay="autoplay" disablepictureinpicture="true" playsinline="true" webkit-playsinline="true" muted loop
+            preload="auto" class="video-stories-2">
+            <source src="zoomcar.mp4" type="video/mp4">
+        </video>
+
         <!-- <i class="stories__mute-unmute material-icons">volume_off</i> -->
     </div>
 
@@ -57,3 +61,21 @@
 </body>
 
 </html>
+
+<script>
+    function time() {
+        video_d = document.getElementById("myvideo").currentTime;
+        console.log(video_d);
+
+        let perc = (100/33)*video_d;
+
+        let vsp = document.getElementById("vsp");
+        vsp.style.width = perc+"%";
+
+
+    }
+
+
+    setInterval(time,10);
+
+</script>
