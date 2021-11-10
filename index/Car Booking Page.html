@@ -108,7 +108,7 @@
 
 
             <div>
-                <input type="text" name="" id="name" placeholder="Enter City Name">
+                <input type="text" id="name" placeholder="Enter City Name">
                 <button onclick="getcar()">Search</button>
                 <div id="cont"></div>
             </div>
@@ -147,10 +147,23 @@
             let img = document.createElement('img')
             img.src = car.img
 
+            let location = document.createElement('h3')
+            location.innerText = car.location
+
             let name = document.createElement('h3')
             name.innerText = car.name
 
-            div.append(img, name)
+            let fuel = document.createElement('h3')
+            fuel.innerText = car.fuel
+
+            let Seater = document.createElement('h3')
+            Seater.innerText = car.Seater
+
+            let Rating = document.createElement('h3')
+            Rating.innerText = car.Rating
+
+
+            div.append(img, location, name, fuel, Seater, Rating)
 
             parent.append(div)
 
@@ -158,4 +171,14 @@
 
 
     }
+
+    // getting data
+    async function getData() {
+        let data = await fetch("http://localhost:5000/api/products/");
+
+        data = await data.json();
+        console.log(data);
+    }
+
+    getData();
 </script>
