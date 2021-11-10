@@ -81,6 +81,7 @@ function closePopup() {
 
 // selecting round-trip from options function
 function roundTrip() {
+    localStorage.setItem("trip",JSON.stringify(["round"]));
     let trip_option = document.getElementById("trips");
     trip_option.innerText = "Round Trip";
     let drop = document.querySelector(".wrap-two");
@@ -90,12 +91,19 @@ function roundTrip() {
 }
 // selecting one-way-trip from options function
 function oneWay() {
+    localStorage.setItem("trip",JSON.stringify(["oneway"]));
     let trip_option = document.getElementById("trips");
     trip_option.innerText = "One Way Trip";
     let drop = document.querySelector(".wrap-two");
     drop.style.display = "block";
     closePopup();
 
+}
+
+if(JSON.parse(localStorage.getItem("trip"))=="round"){
+    roundTrip();
+}else{
+    oneWay();
 }
 
 // About display toggle function

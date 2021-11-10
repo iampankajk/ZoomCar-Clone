@@ -73,7 +73,7 @@
 
 
 
-    
+
 
     <script src="/google Map/map.js"></script>
     <script async defer
@@ -81,3 +81,26 @@
 </body>
 
 </html>
+
+<script>
+
+
+    function initialize() {
+
+        addressEl = document.querySelector('#map-search');
+        searchBox = new google.maps.places.SearchBox(addressEl);
+        google.maps.event.addListener(searchBox, 'places_changed', function () {
+            var places = searchBox.getPlaces(),
+                bounds = new google.maps.LatLngBounds(),
+                i, place, lat, long, resultArray,
+                address = places[0].formatted_address;
+
+
+            console.log(address)
+
+
+
+
+        });
+    }
+</script>
