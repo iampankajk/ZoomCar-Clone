@@ -71,9 +71,9 @@
         <div id="heading" onchange="fun1()">Enter Mobile Number</div>
         <form id="myForm" onsubmit="return signup(event)">
             <input type="tel" placeholder="Mobile Number" id="phone" autocomplete="off"
-                style="width:620px; height:45px; margin-top:20px;">
+                style="width:620px; height:45px; margin-top:20px;" required  minlength="10" maxlength="10" pattern="^[6-9]\d{9}$" data-msg-pattern="Please enter valid value." >
             <br>
-            <input type="submit" id="btn" value="Continue">
+            <input type="submit" id="btn" value="Continue" >
         </form>
     </div>
 
