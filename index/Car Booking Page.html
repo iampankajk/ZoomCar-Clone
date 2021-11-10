@@ -106,12 +106,8 @@
                 </div>
             </div>
 
+            <div id="cont"></div>
 
-            <div>
-                <input type="text" id="name" placeholder="Enter City Name">
-                <button onclick="getcar()">Search</button>
-                <div id="cont"></div>
-            </div>
 
         </div>
 
@@ -123,17 +119,16 @@
 </html>
 
 <script>
-    async function getcar() {
-        let cardata = document.getElementById('name').value
-        let res = await fetch(`http://localhost:5000/api/products/`)
+    // getting data
+    async function getData() {
+        let data = await fetch("http://localhost:5000/api/products/");
 
-        let data = await res.json()
-        console.log(data)
-
-        showData(data)
-
+        data = await data.json();
+        console.log(data.Mumbai);
+        showData(data.Mumbai);
     }
 
+    getData();
 
     let parent = document.getElementById('cont')
 
@@ -144,41 +139,47 @@
 
             let div = document.createElement('div')
 
+
             let img = document.createElement('img')
             img.src = car.img
 
-            let location = document.createElement('h3')
+            let center = document.createElement('p')
+
+            let location = document.createElement('p1')
             location.innerText = car.location
 
-            let name = document.createElement('h3')
+
+            let name = document.createElement('h4')
             name.innerText = car.name
 
-            let fuel = document.createElement('h3')
+
+            let fuel = document.createElement('p')
             fuel.innerText = car.fuel
 
-            let Seater = document.createElement('h3')
+            let Seater = document.createElement('p')
             Seater.innerText = car.Seater
 
-            let Rating = document.createElement('h3')
+            let Rating = document.createElement('h4')
             Rating.innerText = car.Rating
 
+            let left = document.createElement('h3')
 
-            div.append(img, location, name, fuel, Seater, Rating)
+            let price = document.createElement('h5')
+            price.innerText = car.price
+
+            let btn = document.createElement('button')
+            btn.innerHTML = "Book Now";
+
+            center.append(location, name, fuel, Seater, Rating)
+            left.append(price, btn)
+
+            div.append(img, center, left)
 
             parent.append(div)
+
 
         })
 
 
     }
-
-    // getting data
-    async function getData() {
-        let data = await fetch("http://localhost:5000/api/products/");
-
-        data = await data.json();
-        console.log(data);
-    }
-
-    getData();
 </script>
