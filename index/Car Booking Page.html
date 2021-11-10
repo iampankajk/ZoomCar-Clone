@@ -125,7 +125,7 @@
 <script>
     async function getcar() {
         let cardata = document.getElementById('name').value
-        let res = await fetch(`http://localhost:5000/api/products/${cardata}`)
+        let res = await fetch(`http://localhost:5000/api/products/`)
 
         let data = await res.json()
         console.log(data)
