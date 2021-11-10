@@ -1,161 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/css/intlTelInput.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/css/intlTelInput.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/js/intlTelInput.min.js"></script>
+    <link href="pstyle.css" rel="stylesheet">
     <style>
-        #pcontainer {
+      
 
-            width: 420px;
-            margin: auto;
-        }
-
-        img {
-            width: 420px;
-            height: 315px;
-        }
-
-        .details {
-            font-family: "IBM Plex Sans";
-            font-size: 20px;
-            font-weight: 550;
-            line-height: 28px;
-            color: #1f1f1f;
-            padding: 16px 0 24px 0;
-        }
-
-        #phone {
-            border: 1px solid #eeeeee;
-        }
-
-        hr {
-            width: 420px;
-            margin-top: 20px;
-        }
-
-        #mail {
-            font-family: "IBM Plex Sans";
-            font-size: 16px;
-            font-weight: 500;
-            line-height: 16px;
-            color: #10a310;
-            padding: 16px 0;
-            color: #10a310;
-            text-decoration: none;
-
-        }
-
-        #heading {
-            font-family: "IBM Plex Sans";
-            font-size: 18px;
-            font-weight: 600;
-            line-height: 24px;
-            letter-spacing: 0.16px;
-            color: #1f1f1f;
-        }
-
-        #para {
-
-            font-family: "IBM Plex Sans";
-            font-size: 12px;
-            line-height: 16px;
-            font-weight: 400;
-            letter-spacing: 0.4px;
-            color: #666;
-            padding-top: 8px;
-            padding-bottom: 16px;
-        }
-
-        #inp {
-            width: 120%;
-            height: 54px;
-            border: 1px solid #eeeeee;
-            border-radius: 10px;
-            margin-top: 20px;
-            box-sizing: border-box;
-
-        }
-
-        #btn {
-            margin-top: 390px;
-            width: 100%;
-            background-color: #10a310;
-        }
-
-        input:focus {
-            border: 1px solid #00C853;
-        }
     </style>
 </head>
-
 <body>
     <div id="pcontainer">
         <div class="pimg"><img src="https://www.zoomcar.com/build/fb65fcc43b8bededb813e093ea2d47d3.svg"></div>
         <div class="details">Enter details to login/sign-up</div>
-        <div onclick="location.href='login_page1.html'"> <input type="tel" id="phone" placeholder="Enter mobile number" style="width:420px; height:45px"
-             disabled /></div>
-       
+        <input type="tel" id="phone" placeholder="Enter mobile number" style="width:420px; height:45px;  border:1px solid #eeeeee;" onclick="location.href='phlogin.html'"/>
         <br>
-        <hr color="#e0e0e0">
-        <a onclick="location.href='login_page.html'" id="mail">Continue with Email ID</a>
-        <hr color="#e0e0e0">
-        <a href="" id="mail">Continue via social</a>
-
-
-
-    </div>
-
+        <hr color="#e0e0e0" class="hr">
+        <a onclick="location.href='emaillogin.html'" class="mail">Continue with Email ID</a>
+        <hr color="#e0e0e0" class="hr">
+        
+        <a href="social.html" class="mail">Continue via social </a>
+       
+        
+        </div>
+    
 </body>
 <script>
     var input = document.querySelector("#phone");
     window.intlTelInput(input, {
-        // utilsScript is useful for providing validation and pretty formatting
-        utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/js/utils.min.js",
+      // utilsScript is useful for providing validation and pretty formatting
+      utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/js/utils.min.js",
     });
-    var x = document.getElementById("pcontainer");
-
-    function email() {
-        x.innerHTML = null;
-        var d = document.createElement("div");
-        d.class = "fullscreen-toolbar"
-        var span = document.createElement("span");
-        span.class = "z-arrow_left";
-        span.textContent = "::before"
-        d.append(span);
-        var d1 = document.createElement("div");
-
-        d1.id = "heading"
-        d1.textContent = "Enter Email ID"
-
-        var d2 = document.createElement("div");
-        d2.id = "para"
-        d2.textContent = "We'll verify if the email is registered with us";
-        var input = document.createElement("input");
-        input.type = "text";
-        input.placeholder = "Email ID";
-        input.id = "inp";
-        input.oninput = "myfun()"
-        var button = document.createElement("button");
-        button.id = "btn";
-        button.textContent = "Continue"
-        x.append(d, d1, d2, input, button)
-        console.log(x)
-
-    }
-
-    function pfunction() {
-        x.innerHTML = null;
-        var d = document.createElement("div");
-        d.textContent = "Hy";
-        x.append(d)
-        console.log(x)
-    }
-</script>
-
+  </script>
 </html>

@@ -5,14 +5,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+
+  <script src="phsignup.js"></script>
   <link href="pstyle.css" rel="stylesheet">
-  <script src="signup.js"></script>
   <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/css/intlTelInput.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/js/intlTelInput.min.js"></script>
   <style>
    
-       
   </style>
 </head>
 <body>
@@ -22,10 +22,10 @@
   <div id="paras">One last step to create a new account</div>
   <form  id="myForm"  onsubmit="return signup(event)">
     <input type="tel" placeholder="Mobile Number" id="phone" autocomplete="off"
-    style="width:620px; height:45px; margin-top:20px;"  minlength="10" maxlength="10" pattern="^[6-9]\d{9}$" data-msg-pattern="Please enter valid value." required>
+    style="width:620px; height:45px; margin-top:20px;">
 <br>
-  <input type="email" placeholder="Email ID" id="email" required>
-  <input type="submit" id="btn" value="Continue">
+  <input type="email" placeholder="Email ID" id="email">
+  <input type="submit" id="btn" value="Continue" onclick="location.href='details.html'">
   
   </form>
   
@@ -35,11 +35,8 @@
 </body>
 <script>
    
-   var input = document.querySelector("#phone");
-window.intlTelInput(input, {
-    // utilsScript is useful for providing validation and pretty formatting
-    utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/js/utils.min.js",
-});
+
+   
     
    
    
