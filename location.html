@@ -84,6 +84,7 @@
 
 <script>
 
+    let selectLocation = JSON.parse(localStorage.getItem("selectLocation"))[0];
 
     function initialize() {
 
@@ -95,11 +96,14 @@
                 i, place, lat, long, resultArray,
                 address = places[0].formatted_address;
 
+            if(selectLocation=="pickup"){
+                localStorage.setItem("pickUpLocation",JSON.stringify([address]));
+            }else{
+                localStorage.setItem("dropOffLocation",JSON.stringify([address]));
+            }
 
-            console.log(address)
 
-
-
+            window.location.href="/index.html"
 
         });
     }

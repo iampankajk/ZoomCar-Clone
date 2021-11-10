@@ -36,7 +36,7 @@ function initialize() {
      */
     searchBox = new google.maps.places.SearchBox(addressEl);
 
-
+    let selectLocation = JSON.parse(localStorage.getItem("selectLocation"))[0];
 
     /**
      * When the place is changed on search box, it takes the marker to the searched location.
@@ -74,6 +74,14 @@ function initialize() {
         });
 
         infoWindow.open(map, marker);
+
+        if(selectLocation=="pickup"){
+            localStorage.setItem("pickUpLocation",JSON.stringify([address]));
+        }else{
+            localStorage.setItem("dropOffLocation",JSON.stringify([address]));
+        }
+
+
     });
 
 
@@ -112,6 +120,13 @@ function initialize() {
             });
 
             infoWindow.open(map, marker);
+
+
+            if(selectLocation=="pickup"){
+                localStorage.setItem("pickUpLocation",JSON.stringify([address]));
+            }else{
+                localStorage.setItem("dropOffLocation",JSON.stringify([address]));
+            }
         });
     });
 

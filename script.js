@@ -100,7 +100,7 @@ function oneWay() {
 
 }
 
-if(JSON.parse(localStorage.getItem("trip"))=="round"){
+if(JSON.parse(localStorage.getItem("trip"))[0]=="round"){
     roundTrip();
 }else{
     oneWay();
@@ -116,3 +116,19 @@ function displayAbout(){
     }
 
 }
+
+function setPickUp(){
+    localStorage.setItem("selectLocation",JSON.stringify(["pickup"]));
+}
+function setDropOff(){
+    localStorage.setItem("selectLocation",JSON.stringify(["dropoff"]));
+}
+
+let pickUpLocation = JSON.parse(localStorage.getItem("pickUpLocation"))[0];
+let pick_up = document.querySelector(".pick-up");
+pick_up.innerText = pickUpLocation;
+
+let dropOffLocation = JSON.parse(localStorage.getItem("dropOffLocation"))[0];
+let drop_off = document.querySelector(".drop-off");
+drop_off.innerText = dropOffLocation;
+
