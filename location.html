@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,10 @@
     <title>Pick your Location</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
+    <div id="map"></div>
     <!--location-page-start  -->
 
     <div class="location-page">
@@ -22,7 +26,7 @@
                         <a href="#">
                             <div class="select-address">
                                 <div class="green-icon"></div>
-                                <div class="placeholder"><input type="text" id=""
+                                <div class="placeholder"><input type="text" id="map-search" class="controls"
                                         placeholder="Select your starting point"></div>
                             </div>
                         </a>
@@ -33,7 +37,7 @@
                         <i class="icon icon-my-location"></i>
                         <div>Current Location</div>
                     </div>
-                    <a href="google Map\map.html" class="map pointer">
+                    <a href="/google Map/map.html" class="map pointer">
                         <i class="icon icon-map"></i>
                         <div>
                             Select Location on Map
@@ -61,10 +65,19 @@
                 </div>
             </div>
         </div>
-
     </div>
 
 
     <!--location-page-end -->
+
+
+
+
+    
+
+    <script src="/google Map/map.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3wzKiv1MaS2bETRlpAeJkjJPvRKs8xe0&libraries=places&callback=initialize"></script>
 </body>
+
 </html>
