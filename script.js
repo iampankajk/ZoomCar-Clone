@@ -1,5 +1,5 @@
-// let btn = document.querySelector(".btn-primary");
-// btn.removeAttribute("disabled");
+let btn = document.querySelector(".btn-primary");
+btn.removeAttribute("disabled");
 
 
 // enable confirm button function

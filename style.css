@@ -250,6 +250,19 @@ a{
     padding-bottom: 16px;
 }
 
+.selection .ride-time{
+    padding: 16px;
+    background-image: url("images\\icons-calendar.png");
+    background-repeat: no-repeat;
+    background-position: 16px center;
+    padding-left: 50px;
+    background-color: #fff;
+    border-radius: 4px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: auto;
+}
+
 .btn-wrapper .btn-primary[disabled]{
     background-color: #e0e0e0;
     color: #a8a8a8;
