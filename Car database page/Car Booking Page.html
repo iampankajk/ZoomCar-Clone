@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="car booking.css">
 </head>
 
 
@@ -51,10 +51,13 @@
             <div class="filter_Seats">
                 <div class="filter_heading">Seats :</div>
                 <div class="filter_items">
-                    <div class="filter_item1">
-                        5
-                    </div>
+                    <button onclick="five()" id="filter_item1">5</button>
+                    <button onclick="six()" id="filter_item1">6</button>
+                    <button onclick="seven()" id="filter_item1">7</button>
+
+
                 </div>
+
             </div>
 
             <div class="filter_cartype">
@@ -124,8 +127,8 @@
         let data = await fetch("http://localhost:5000/api/products/");
 
         data = await data.json();
-        console.log(data.Mumbai);
-        showData(data.Mumbai);
+        // console.log(data.Mumbai);
+        showData(data.Delhi);
     }
 
     getData();
@@ -157,7 +160,7 @@
             fuel.innerText = car.fuel
 
             let Seater = document.createElement('p')
-            Seater.innerText = car.Seater
+            Seater.innerText = car.Seater + " " + "Seater";
 
             let Rating = document.createElement('h4')
             Rating.innerText = car.Rating
@@ -181,5 +184,37 @@
         })
 
 
+    }
+
+
+    async function getData() {
+        let data = await fetch("http://localhost:5000/api/products/");
+
+        data = await data.json();
+        // console.log(data.Mumbai);
+        showData(data.Delhi);
+    }
+
+    function five() {
+
+        parent.innerHTML = "";
+
+        let arr = data.Delhi.sort(function(a, b) {
+            return b.Seater - a.Seater;
+        });
+
+        showData(arr)
+    }
+
+
+    function six() {
+
+        parent.innerHTML = "";
+
+        let arr = data.Delhi.sort(function(a, b) {
+            return a.Seater - b.Seater;
+        });
+
+        showData(arr)
     }
 </script>
