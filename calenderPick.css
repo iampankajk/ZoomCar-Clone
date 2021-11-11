@@ -145,3 +145,27 @@
   margin        : 0%;
   border-radius : 8px;
 }
+.getContinue2 {
+  width: 100%;
+  text-align: center;
+  padding: 1%;
+  display: none;
+
+}
+
+.getContinue2 button {
+  border: none;
+  background: #10a310;
+  width: 85%;
+  padding: 2.5%;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.8px;
+  color: #fff;
+  margin: 0%;
+  border-radius: 8px;
+  margin-left: 45%;
+ 
+}

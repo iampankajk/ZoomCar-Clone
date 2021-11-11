@@ -1,77 +1,86 @@
-var slider = document.getElementById("myRange");
-var output = document.getElementById("demo");
-var output2 = document.getElementById("demo");
+function startDate() {
+    let start = document.getElementById("calendertemp").value;
+    let lbd = document.querySelector(".lbd");
+    lbd.innerText = start;
+}
 
-output.innerHTML = `${slider.value} AM `;
-output2.innerHTML = `${slider.value} AM `;
+function timeChange() {
+    let demo = document.getElementById("demo");
+    let myRange = document.getElementById("myRange").value;
 
 
-slider.oninput = function () {
-    if (this.value > 12) {
-        output.innerHTML = `${this.value}:00 PM`;
-        output2.innerHTML = `${this.value}:00 PM`;
+    if (myRange > 12) {
+        demo.innerText = `${myRange}:00 PM`;
 
     }
     else {
-        output.innerHTML = `${this.value}:00 AM`;
-        output2.innerHTML = `${this.value}:00 AM`;
+        demo.innerText = `${myRange}:00 AM`;
+
+    }
+}
+
+
+function startTrip(){
+    let myRange = document.getElementById("myRange").value;
+    let lbd_time = document.querySelector(".lbd-time");
+    let lbd = document.querySelector(".lbd").innerText;
+
+    let start = [];
+    start.push(lbd);
+    
+
+    if (myRange > 12) {
+        lbd_time.innerText = `${myRange}:00 PM`;
+        start.push(`${myRange}:00 PM`);
+
+    }
+    else {
+        lbd_time.innerText = `${myRange}:00 AM`;
+        start.push(`${myRange}:00 AM`);
 
     }
 
+    localStorage.setItem("start_Date",JSON.stringify(start));
+
+    let getContinue2 = document.querySelector(".getContinue2");
+    getContinue2.style.display = "block";
+
+    let getContinue1 = document.querySelector(".getContinue");
+    getContinue1.style.display = "none";
+
+
 }
 
-// date format
-let leftData = document.getElementById("leftBoxcal");
-let rightData = document.getElementById("rightBoxcal");
-let tempDate1 = document.getElementById("calendertemp");
-let tempDate2 = document.getElementById("calendertemp2");
-
-
-
-// dateData.innerHTML=tempDate.value; 
-tempDate1.oninput = () => {
-    leftData.innerHTML = null;
-    let div1 = document.createElement("div");
-    let div2 = document.createElement("div");
-    div2.append(output2.innerText);
-    div2.style.marginTop = "8px";
-    div1.append(tempDate1.value);
-    leftData.append(div1, div2);
+function endDate() {
+    let end = document.getElementById("calendertemp2").value;
+    let rbd = document.querySelector(".rbd");
+    rbd.innerText = end;
 }
 
-tempDate2.oninput = () => {
-    rightData.innerHTML = null;
-    let div3 = document.createElement("div");
 
-    div3.append(tempDate2.value);
-    rightData.append(div3);
-}
+function endTrip(){
+    let myRange = document.getElementById("myRange").value;
+    let rbd_time = document.querySelector(".rbd-time");
 
-function addTimeRight() {
-    let div4 = document.createElement("div");
-    div4.style.marginTop = "8px";
-    div4.append(output);
-    rightData.append(div4);
-}
-let btnContinue = document.getElementById("time");
-btnContinue.addEventListener("click", addTimeRight);
+    let rbd = document.querySelector(".rbd").innerText;
 
-// add data 
-let leftDate=document.getElementById("calendertemp").value; 
-console.log(leftDate); 
+    let end = [];
+    end.push(rbd);
 
-let obj={
-    date1:"leftDate",
-};
+    if (myRange > 12) {
+        rbd_time.innerText = `${myRange}:00 PM`;
+        end.push(`${myRange}:00 PM`);
 
-if (localStorage.getItem("t") === null) {
-    localStorage.setItem("t",JSON.stringify([]));
-}
+    }
+    else {
+        rbd_time.innerText = `${myRange}:00 AM`;
+        end.push(`${myRange}:00 AM`);
 
-function addleftdata(){
-    let timeData =JSON.parse(localStorage.getItem("t"));
-    timeData.push(obj);
-    localStorage.setItem("t",JSON.stringify(timeData));
+    }
+
+    localStorage.setItem("end_Date",JSON.stringify(end));
+
+
 }
     
 
