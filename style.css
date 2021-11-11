@@ -12,7 +12,10 @@ body{
 }
 
 /* city-selection-start */
-
+a{
+    text-decoration: none;
+    color: white;
+}
 .city-box{
     position: fixed;
     height: 100vh;
