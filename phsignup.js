@@ -14,8 +14,8 @@ function signup(e) {
     // console.log("myForm:",myForm)
     let email = myForm.email.value;
 
-    if (localStorage.getItem("users") === null) {
-        localStorage.setItem("users", JSON.stringify([]));
+    if (localStorage.getItem("users5") === null) {
+        localStorage.setItem("users5", JSON.stringify([]));
     }
 
     let user1 = {
@@ -23,11 +23,11 @@ function signup(e) {
     };
 
 
-    let arr = JSON.parse(localStorage.getItem("users"))
+    let arr = JSON.parse(localStorage.getItem("users5"))
 
     arr.push(user1);
 
-    localStorage.setItem("users", JSON.stringify(arr));
+    localStorage.setItem("users5", JSON.stringify(arr));
     location.href="phdetails.html";
 
 
