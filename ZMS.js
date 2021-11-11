@@ -51,7 +51,7 @@ var repeat = function (activeClass) {
 };
 repeat();
 
-///////////
+
 function show1() {
   //   console.log("yo");
 

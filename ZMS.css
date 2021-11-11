@@ -207,7 +207,6 @@
 }
 /* /////////////////////////////// */
 
-
 .img-slider {
   position: relative;
   width: 100%;
@@ -427,4 +426,14 @@ textarea {
 }
 .bwhite {
   color: white;
+}
+/* Banner */
+.dashboard-banner {
+  /* position: relative; */
+  top: -50vh;
+  max-width: 960px;
+  margin: 40 auto 140 auto;
+}
+.dashboard-banner > img {
+  max-width: 940px;
 }
