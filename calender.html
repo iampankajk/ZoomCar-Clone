@@ -15,7 +15,7 @@
     <div class="container-cal">
         <div class="chooseTime ">
 
-            <h2> <i class="fas fa-arrow-left  subtext"> </i> Choose Trip Start Time </h2>
+            <h2> <i class="fas fa-arrow-left  subtext"> </i> <span class="time-text">Choose Trip Start Time</span>  </h2>
 
         </div>
         <div class="showDate" id="showDate">
@@ -102,6 +102,9 @@
         let lbd_time = document.querySelector(".lbd-time");
         let lbd = document.querySelector(".lbd").innerText;
 
+        let time_text = document.querySelector(".time-text");
+        time_text.innerText = "Choose Trip End Time";
+
         let start = [];
         start.push(lbd);
         
@@ -139,6 +142,7 @@
         let myRange = document.getElementById("myRange").value;
         let rbd_time = document.querySelector(".rbd-time");
 
+
         let rbd = document.querySelector(".rbd").innerText;
 
         let end = [];
@@ -156,6 +160,8 @@
         }
 
         localStorage.setItem("end_Date",JSON.stringify(end));
+
+        window.location.href = "index.html";
 
 
     }
