@@ -29,12 +29,9 @@
             <div class="filter_kms">
                 <div class="filter_heading">Free kms:</div>
                 <div class="filter_item_kms">
-                    <div class="filter_list">
-                        90
-                    </div>
-                    <div class="filter_list">
-                        120
-                    </div>
+                    <button onclick="nintyfun()" class="filter_list">90</button>
+                    <button onclick="onetwontyfun()" class="filter_list">120</button>
+
                 </div>
             </div>
 
@@ -63,8 +60,8 @@
             <div class="filter_cartype">
                 <div class="filter_cartype_heading">Car Types :</div>
                 <div class="filter_cartype_items">
-                    <h3 id="kms_border">hatchback</h3>
-                    <h3 id="kms_border">Sedan</h3>
+                    <button onclick="hatchbackcar()" id="kms_border">hatchback</button>
+                    <button onclick="Sedancar()" id="kms_border">Sedan</button>
                 </div>
             </div>
 
@@ -80,12 +77,8 @@
             <div class="filter_Delivery">
                 <div class="filter_heading">Delivery Type :</div>
                 <div class="filter_item3">
-                    <div class="filter_list3">
-                        Home Delivery
-                    </div>
-                    <div class="filter_list3">
-                        Airport
-                    </div>
+                    <button onclick="Homecar()" class="filter_list3">Home Delivery</button>
+                    <button onclick="Airportcar()" class="filter_list3">Airport</button>
                 </div>
             </div>
 
@@ -97,8 +90,7 @@
 
             <div id="top3">
                 <div class="home_delivery">
-                    <div class="icon"><img
-                            src="https://s3-ap-southeast-1.amazonaws.com/zoomcar/images/original/976c02875a91f8e252ab53c09f8f30b22ae0e905.png?1595735439">
+                    <div class="icon"><img src="https://s3-ap-southeast-1.amazonaws.com/zoomcar/images/original/976c02875a91f8e252ab53c09f8f30b22ae0e905.png?1595735439">
                     </div>
                     <div class="delivery_heading">
                         <div class="card_heading">
@@ -140,7 +132,7 @@
     function showData(cars) {
         parent.innerHTML = null
 
-        cars.forEach(function (car) {
+        cars.forEach(function(car) {
 
             let div = document.createElement('div')
 
@@ -176,7 +168,7 @@
             btn.innerHTML = "Book Now";
 
             btn.onclick = () => {
-                addtoBook(car); 
+                addtoBook(car);
             }
 
             center.append(location, name, fuel, Seater, Rating)
@@ -190,6 +182,41 @@
         })
 
 
+    }
+
+    let ninty = [];
+    let onetwonty = [];
+
+    async function nintyfun() {
+        let data = await fetch("http://localhost:5000/api/products/");
+
+        data = await data.json();
+
+        let cars = data.Delhi;
+
+        cars.forEach((e) => {
+            if (e.fuel == "Diesel") {
+                ninty.push(e);
+            }
+        });
+
+        showData(ninty);
+    }
+
+    async function onetwontyfun() {
+        let data = await fetch("http://localhost:5000/api/products/");
+
+        data = await data.json();
+
+        let cars = data.Delhi;
+
+        cars.forEach((e) => {
+            if (e.fuel == "Petrol") {
+                onetwonty.push(e);
+            }
+        });
+
+        showData(onetwonty);
     }
 
 
@@ -249,6 +276,79 @@
         showData(sevenSeater);
     }
 
+
+    let hatchback = [];
+    let Sedan = [];
+
+    async function hatchbackcar() {
+        let data = await fetch("http://localhost:5000/api/products/");
+
+        data = await data.json();
+
+        let cars = data.Delhi;
+
+        cars.forEach((e) => {
+            if (e.Seater == 6 || e.Seater == 7) {
+                hatchback.push(e);
+            }
+        });
+
+        showData(hatchback);
+    }
+
+    async function Sedancar() {
+        let data = await fetch("http://localhost:5000/api/products/");
+
+        data = await data.json();
+
+        let cars = data.Delhi;
+
+        cars.forEach((e) => {
+            if (e.Seater == 5) {
+                Sedan.push(e);
+            }
+        });
+
+        showData(Sedan);
+    }
+
+    let Home = [];
+    let Airport = [];
+
+    async function Homecar() {
+        let data = await fetch("http://localhost:5000/api/products/");
+
+        data = await data.json();
+
+        let cars = data.Delhi;
+
+        cars.forEach((e) => {
+            if (e.Seater == 6 || e.Seater == 7) {
+                Home.push(e);
+            }
+        });
+
+        showData(Home);
+    }
+
+    async function Airportcar() {
+        let data = await fetch("http://localhost:5000/api/products/");
+
+        data = await data.json();
+
+        let cars = data.Delhi;
+
+        cars.forEach((e) => {
+            if (e.Seater == 5) {
+                Airport.push(e);
+            }
+        });
+
+        showData(Airport);
+    }
+
+
+
     if (localStorage.getItem("carShow") === null) {
         localStorage.setItem("carShow", JSON.stringify([]));
     }
@@ -256,9 +356,8 @@
     function addtoBook(c) {
         let products_cart = JSON.parse(localStorage.getItem("carShow"));
         products_cart.push(c);
-        localStorage.setItem("carShow", JSON.stringify(products_cart));  // storing products in the local storage
+        localStorage.setItem("carShow", JSON.stringify(products_cart)); // storing products in the local storage
 
 
     }
-
 </script>
