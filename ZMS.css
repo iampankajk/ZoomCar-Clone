@@ -26,6 +26,9 @@
   z-index: 10;
   width: 100%;
 }
+a{
+  text-decoration: none;
+}
 .mobility-service-header > img {
   align-self: center;
   height: 24px;
