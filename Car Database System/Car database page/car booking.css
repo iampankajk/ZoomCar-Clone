@@ -207,6 +207,7 @@ Dom part
   }
   
   .filter_cartype_heading {
+      margin-bottom: 5px;
       margin-left: 10px;
       margin-top: 20px;
   }
