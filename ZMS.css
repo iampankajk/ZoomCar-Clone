@@ -3,6 +3,10 @@
   margin: 0px;
   padding: 0px;
 }
+.bottom-border-green {
+  height: 16px;
+  background-color: #10a310;
+}
 .main-section {
   background: url(https://www.zoomcar.com/assets/component-images/ZMS-Hero-Banner.584135fee08ac6c84fee329d5fb915f4.jpg);
   height: 98 vh;
@@ -157,7 +161,6 @@
 }
 
 .tabs-container > .tab-item {
-  font-family: IBM Plex Sans;
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
@@ -203,7 +206,7 @@
   margin: 0 auto;
 }
 /* /////////////////////////////// */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 
 .img-slider {
   position: relative;
@@ -382,11 +385,11 @@
   letter-spacing: 0.24px;
   text-align: center;
   color: #666;
-  max-width: 460px;
+  max-width: 410px;
   padding-top: 16px;
 }
 .contact-form {
-  padding-top: 80px;
+  padding-top: 40px;
 }
 .contact-form > .form-horizontal {
   display: flex;
@@ -399,7 +402,7 @@
 }
 input {
   border: none;
-  font-family: IBM Plex Sans;
+
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -410,10 +413,18 @@ input {
   border: 1px solid #e0e0e0;
   background-color: #fff;
   width: 100%;
-  padding: 16px 12px;
+  padding: 16px 4px;
   outline: none;
+  margin: 7px 0px;
 }
 .input-box-container {
-  width: 50%;
+  width: 100%;
   padding-bottom: 20px;
+}
+textarea {
+  padding: 5px;
+  font-size: 16px;
+}
+.bwhite {
+  color: white;
 }

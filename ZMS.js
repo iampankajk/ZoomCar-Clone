@@ -245,15 +245,6 @@ function show2() {
       </div>
     </div>
   </div>`;
-  //   let main_div = document.getElementById("tab2");
-  //   main_div.innerHTML = null;
-  //   main_div.append(description, image_container, dec_long);
-  //   clearGrid();
 }
-//reset button
-// let resetBtn = document.getElementById("tab2");
-// resetBtn.addEventListener("click", clearGrid);
-// function clearGrid() {
-//   let arrayGrid = document.getElementById("tab2");
-//   arrayGrid.innerHTML = null;
-// }
+
+
