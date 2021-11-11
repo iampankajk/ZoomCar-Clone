@@ -1,77 +1,75 @@
 .container-cal {
   width      : 50%;
   margin-top : 2%;
-  margin-left: 5%;
+  margin-left: 1%;
 
 }
 
-
 .chooseTime {
-  display: flex;
-  width  : 100%;
-  border : 1px solid blue;
+  display    : flex;
+  width      : 100%;
+  margin-left: 1%;
 
 }
 
 .chooseTime h2 {
   width      : 100%;
   font-family: Arial, Helvetica, sans-serif;
-  font-family: 300;
+  font-weight: 300;
+  text-align : left;
 }
 
 .subtext {
   margin-right: 2%;
 }
 
-.calenderContainer {
-  display: flex;
-
-}
-
-.showCalender {
-  width      : 47%;
-  margin-left: 2%;
-  height     : 40%;
-}
-
-.showCalender2 {
-  width      : 45%;
-  margin-left: 2%;
-  height     : 40%;
-}
-
-
 .showDate {
   width      : 100%;
   font-family: Arial, Helvetica, sans-serif;
-  height     : 100px;
-  border     : 1px solid red;
+  border     : .5px solid #E0E0E0;
+  margin-left: 40%;
 
 }
 
 #showDate {
   display: flex;
-  gap    : 200px;
+  gap    : 30%;
+  padding: .5%;
 }
 
 #leftBoxcal {
-  font-size  : 14px;
+  font-size  : 12px;
   font-weight: 400;
   text-align : left;
-  margin-top : 3%;
+
+  margin-left: 3%;
 }
 
 #right-arrow {
-  font-size  : 14px;
+  font-size  : 12px;
   font-weight: 400;
-  margin-top : 5%;
+  margin-top : 0%;
 }
 
 #rightBoxcal {
-  font-size  : 14px;
+  font-size  : 12px;
   font-weight: 400;
   text-align : left;
-  margin-top : 3%;
+
+  margin-right: 0%;
+}
+
+.calenderContainer {
+  display    : flex;
+  width      : 100%;
+  margin-left: 40%;
+}
+
+.showCalender {
+  width      : 50%;
+  margin-left: 0%;
+  height     : 40%;
+  border     : none;
 }
 
 #calendertemp {
@@ -82,14 +80,9 @@
   width: 100%;
 }
 
-.time-range {
-  display : block;
-  position: absolute;
-  top     : 0;
-  left    : 0;
-  right   : 0;
-  z-index : 2;
-  padding : 0 30px;
+.pickTime {
+  width      : 100%;
+  margin-left: 40%;
 }
 
 .slidecontainer {
@@ -133,20 +126,22 @@
 .getContinue {
   width      : 100%;
   text-align : center;
-  padding    : 1%;
-  
+  padding    : .5%;
+  margin-left: 40%;
+
 }
+
 .getContinue button {
-  border: none;
-  background: #10a310;
-  width: 85%;
-  padding:2.5%;
-  font-family: sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 16px;
+  border        : none;
+  background    : #10a310;
+  width         : 85%;
+  padding       : 2.5%;
+  font-family   : sans-serif;
+  font-size     : 16px;
+  font-weight   : 600;
+  line-height   : 16px;
   letter-spacing: 0.8px;
-  color: #fff;
-  margin: 0%;
-  border-radius: 8px;
+  color         : #fff;
+  margin        : 0%;
+  border-radius : 8px;
 }

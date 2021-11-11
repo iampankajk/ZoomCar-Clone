@@ -31,40 +31,51 @@ let tempDate2 = document.getElementById("calendertemp2");
 // dateData.innerHTML=tempDate.value; 
 tempDate1.oninput = () => {
     leftData.innerHTML = null;
-  
     let div1 = document.createElement("div");
     let div2 = document.createElement("div");
-    div2.append(output2.innerText); 
-    div2.style.marginTop="10px";
-    div1.append(tempDate1.value); 
+    div2.append(output2.innerText);
+    div2.style.marginTop = "8px";
+    div1.append(tempDate1.value);
     leftData.append(div1, div2);
-
 }
 
 tempDate2.oninput = () => {
     rightData.innerHTML = null;
     let div3 = document.createElement("div");
-    div3.append(tempDate2.value); 
+
+    div3.append(tempDate2.value);
     rightData.append(div3);
 }
 
-// function addTimeleft(){
-//     let div2 = document.createElement("div");
-//     div2.append(output2); 
-//     leftData.append(div2); 
-// }
-
-// tempDate1.addEventListener("onclick", addTimeleft);
-
-// tempDate1.removeEventListener("oninput", addTimeleft); 
-
-function addTimeRight(){
+function addTimeRight() {
     let div4 = document.createElement("div");
-    div4.append(output); 
-    rightData.append(div4); 
+    div4.style.marginTop = "8px";
+    div4.append(output);
+    rightData.append(div4);
 }
-let btnContinue=document.getElementById("time"); 
-btnContinue.addEventListener("click", addTimeRight); 
+let btnContinue = document.getElementById("time");
+btnContinue.addEventListener("click", addTimeRight);
+
+// add data 
+let leftDate=document.getElementById("calendertemp").value; 
+console.log(leftDate); 
+
+let obj={
+    date1:"leftDate",
+};
+
+if (localStorage.getItem("t") === null) {
+    localStorage.setItem("t",JSON.stringify([]));
+}
+
+function addleftdata(){
+    let timeData =JSON.parse(localStorage.getItem("t"));
+    timeData.push(obj);
+    localStorage.setItem("t",JSON.stringify(timeData));
+}
+    
+
+
 
 
 
