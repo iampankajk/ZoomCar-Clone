@@ -175,9 +175,9 @@
             let btn = document.createElement('button')
             btn.innerHTML = "Book Now";
 
-            btn.onclick = ((car)=>{
-                console.log(car);
-            })
+            btn.onclick = () => {
+                addtoBook(car); 
+            }
 
             center.append(location, name, fuel, Seater, Rating)
             left.append(price, btn)
@@ -192,12 +192,12 @@
 
     }
 
-  
-let fiveSeater = [];
-let sixSeater = [];
-let sevenSeater = [];
 
-// five seater filter function
+    let fiveSeater = [];
+    let sixSeater = [];
+    let sevenSeater = [];
+
+    // five seater filter function
     async function five() {
         let data = await fetch("http://localhost:5000/api/products/");
 
@@ -205,8 +205,8 @@ let sevenSeater = [];
 
         let cars = data.Delhi;
 
-        cars.forEach((e)=>{
-            if(e.Seater==5){
+        cars.forEach((e) => {
+            if (e.Seater == 5) {
                 fiveSeater.push(e);
             }
         });
@@ -223,8 +223,8 @@ let sevenSeater = [];
 
         let cars = data.Delhi;
 
-        cars.forEach((e)=>{
-            if(e.Seater==6){
+        cars.forEach((e) => {
+            if (e.Seater == 6) {
                 sixSeater.push(e);
             }
         });
@@ -240,12 +240,25 @@ let sevenSeater = [];
 
         let cars = data.Delhi;
 
-        cars.forEach((e)=>{
-            if(e.Seater==7){
+        cars.forEach((e) => {
+            if (e.Seater == 7) {
                 sevenSeater.push(e);
             }
         });
 
         showData(sevenSeater);
     }
+
+    if (localStorage.getItem("carShow") === null) {
+        localStorage.setItem("carShow", JSON.stringify([]));
+    }
+
+    function addtoBook(c) {
+        let products_cart = JSON.parse(localStorage.getItem("carShow"));
+        products_cart.push(c);
+        localStorage.setItem("carShow", JSON.stringify(products_cart));  // storing products in the local storage
+
+
+    }
+
 </script>
