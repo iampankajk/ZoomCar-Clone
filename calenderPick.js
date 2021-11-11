@@ -34,7 +34,7 @@ tempDate1.oninput = () => {
   
     let div1 = document.createElement("div");
     let div2 = document.createElement("div");
-    div2.append(output2); 
+    div2.append(output2.innerText); 
     div2.style.marginTop="10px";
     div1.append(tempDate1.value); 
     leftData.append(div1, div2);
