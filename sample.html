@@ -9,183 +9,177 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <style>
-        .container-cal {
-            width: 50%;
-            margin-top: 2%;
-            margin-left: 5%;
+       .container-cal {
+  width      : 50%;
+  margin-top : 2%;
+  margin-left: 1%;
 
-        }
+}
 
+.chooseTime {
+  display    : flex;
+  width      : 100%;
+  margin-left: 1%;
 
-        .chooseTime {
-            display: flex;
-            width: 100%;
-            border: 1px solid blue;
+}
 
-        }
+.chooseTime h2 {
+  width      : 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  text-align : left;
+}
 
-        .chooseTime h2 {
-            width: 100%;
-            font-family: Arial, Helvetica, sans-serif;
-            font-family: 300;
-        }
+.subtext {
+  margin-right: 2%;
+}
 
-        .subtext {
-            margin-right: 2%;
-        }
+.showDate {
+  width      : 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  border     : .5px solid #E0E0E0;
+  margin-left: 40%;
 
-        .calenderContainer {
-            display: flex;
+}
 
-        }
+#showDate {
+  display: flex;
+  gap    : 30%;
+  padding: .5%;
+}
 
-        .showCalender {
-            width: 47%;
-            margin-left: 2%;
-            height: 40%;
-        }
+#leftBoxcal {
+  font-size  : 12px;
+  font-weight: 400;
+  text-align : left;
 
-        .showCalender2 {
-            width: 45%;
-            margin-left: 2%;
-            height: 40%;
-        }
+  margin-left: 3%;
+}
 
+#right-arrow {
+  font-size  : 12px;
+  font-weight: 400;
+  margin-top : 0%;
+}
 
-        .showDate {
-            width: 100%;
-            font-family: Arial, Helvetica, sans-serif;
-            height: 100px;
-            border: 1px solid red;
+#rightBoxcal {
+  font-size  : 12px;
+  font-weight: 400;
+  text-align : left;
 
-        }
+  margin-right: 0%;
+}
 
-        #showDate {
-            display: flex;
-            gap: 200px;
-        }
+.calenderContainer {
+  display    : flex;
+  width      : 100%;
+  margin-left: 40%;
+}
 
-        #leftBoxcal {
-            font-size: 14px;
-            font-weight: 400;
-            text-align: left;
-            margin-top: 3%;
-        }
+.showCalender {
+  width      : 50%;
+  margin-left: 0%;
+  height     : 40%;
+  border     : none;
+}
 
-        #right-arrow {
-            font-size: 14px;
-            font-weight: 400;
-            margin-top: 5%;
-        }
+#calendertemp {
+  width: 100%;
+}
 
-        #rightBoxcal {
-            font-size: 14px;
-            font-weight: 400;
-            text-align: left;
-            margin-top: 3%;
-        }
+#calendertemp2 {
+  width: 100%;
+}
 
-        #calendertemp {
-            width: 100%;
-        }
+.pickTime {
+  width      : 100%;
+  margin-left: 40%;
+}
 
-        #calendertemp2 {
-            width: 100%;
-        }
+.slidecontainer {
+  width: 100%;
+}
 
-        .time-range {
-            display: block;
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            z-index: 2;
-            padding: 0 30px;
-        }
+.slider {
+  -webkit-appearance: none;
+  width             : 100%;
+  height            : 5px;
+  border-radius     : 5px;
+  background        : #10a310;
+  outline           : none;
+  opacity           : 0.7;
+  -webkit-transition: .2s;
+  transition        : opacity .2s;
+}
 
-        .slidecontainer {
-            width: 100%;
-        }
+.slider:hover {
+  opacity: 1;
+}
 
-        .slider {
-            -webkit-appearance: none;
-            width: 100%;
-            height: 5px;
-            border-radius: 5px;
-            background: #10a310;
-            outline: none;
-            opacity: 0.7;
-            -webkit-transition: .2s;
-            transition: opacity .2s;
-        }
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance        : none;
+  width             : 80px;
+  height            : 25px;
+  border-radius     : 10px;
+  background        : #BDBDBD;
+  cursor            : pointer;
+}
 
-        .slider:hover {
-            opacity: 1;
-        }
+.slider::-moz-range-thumb {
+  width        : 25px;
+  height       : 25px;
+  border-radius: 50%;
+  background   : #04AA6D;
+  cursor       : pointer;
+}
 
-        .slider::-webkit-slider-thumb {
-            -webkit-appearance: none;
-            appearance: none;
-            width: 80px;
-            height: 25px;
-            border-radius: 10px;
-            background: #BDBDBD;
-            cursor: pointer;
-        }
+.getContinue {
+  width      : 100%;
+  text-align : center;
+  padding    : .5%;
+  margin-left: 40%;
 
-        .slider::-moz-range-thumb {
-            width: 25px;
-            height: 25px;
-            border-radius: 50%;
-            background: #04AA6D;
-            cursor: pointer;
-        }
+}
 
-        .getContinue {
-            width: 100%;
-            text-align: center;
-            padding: 1%;
+.getContinue button {
+  border        : none;
+  background    : #10a310;
+  width         : 85%;
+  padding       : 2.5%;
+  font-family   : sans-serif;
+  font-size     : 16px;
+  font-weight   : 600;
+  line-height   : 16px;
+  letter-spacing: 0.8px;
+  color         : #fff;
+  margin        : 0%;
+  border-radius : 8px;
+}
 
-        }
+.getContinue2 {
+  width      : 100%;
+  text-align : center;
+  padding    : .5%;
+  margin-left: 40%;
+  display: none;
 
-        .getContinue button {
-            border: none;
-            background: #10a310;
-            width: 85%;
-            padding: 2.5%;
-            font-family: sans-serif;
-            font-size: 16px;
-            font-weight: 600;
-            line-height: 16px;
-            letter-spacing: 0.8px;
-            color: #fff;
-            margin: 0%;
-            border-radius: 8px;
-        }
+}
 
-        
-        .getContinue2 {
-            width: 100%;
-            text-align: center;
-            padding: 1%;
-            display: none;
-
-        }
-
-        .getContinue2 button {
-            border: none;
-            background: #10a310;
-            width: 85%;
-            padding: 2.5%;
-            font-family: sans-serif;
-            font-size: 16px;
-            font-weight: 600;
-            line-height: 16px;
-            letter-spacing: 0.8px;
-            color: #fff;
-            margin: 0%;
-            border-radius: 8px;
-        }
+.getContinue2 button {
+  border        : none;
+  background    : #10a310;
+  width         : 85%;
+  padding       : 2.5%;
+  font-family   : sans-serif;
+  font-size     : 16px;
+  font-weight   : 600;
+  line-height   : 16px;
+  letter-spacing: 0.8px;
+  color         : #fff;
+  margin        : 0%;
+  border-radius : 8px;
+}
     </style>
 </head>
 
@@ -198,6 +192,7 @@
         </div>
         <div class="showDate" id="showDate">
             <div id="leftBoxcal">
+                Start Date and Time
                 <div class="lbd"></div>
                 <div class="lbd-time"></div>
             </div>
@@ -205,6 +200,7 @@
                 <h3> <i class="fas fa-arrow-right "> </i> </h3>
             </div>
             <div id="rightBoxcal">
+                End Date and Time
                 <div class="rbd"></div>
                 <div class="rbd-time"></div>
             </div>
