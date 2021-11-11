@@ -1,8 +1,4 @@
-var input = document.querySelector("#phone");
-window.intlTelInput(input, {
-    // utilsScript is useful for providing validation and pretty formatting
-    utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/js/utils.min.js",
-});
+
 
 
     
