@@ -24,7 +24,7 @@
     <input type="tel" placeholder="Mobile Number" id="phone" autocomplete="off"
     style="width:620px; height:45px; margin-top:20px;"  minlength="10" maxlength="10" pattern="^[6-9]\d{9}$" data-msg-pattern="Please enter valid value." required>
 <br>
-  <input type="email" placeholder="Email ID" id="email" required>
+  <input type="email" placeholder="Email ID" id="email">
   <input type="submit" id="btn" value="Continue">
   
   </form>
@@ -40,6 +40,10 @@ window.intlTelInput(input, {
     // utilsScript is useful for providing validation and pretty formatting
     utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/js/utils.min.js",
 });
+var data = JSON.parse(localStorage.getItem("users1"));
+
+//let arr =JSON.parse(localStorage.getItem("users"))  
+document.getElementById("email").placeholder=`${data[data.length-1].email}`
     
    
    

@@ -23,7 +23,9 @@ document.getElementById("text").innerHTML="Incorrect Password"
 
 }
 else{
-
+//alert("ok")
+//prtftrrfre
+//jigrh
 //location.href ="main.html";
 
 }

@@ -7,12 +7,7 @@
   <title>Document</title>
   <link href="pstyle.css" rel="stylesheet">
   <script src="details.js"></script>
-  <style>
-   
-   
- 
-       
-  </style>
+  
 </head>
 <body>
   <div id="container">
@@ -20,7 +15,7 @@
   <div id="heading" onchange="fun1()">Fill In A Few More Details</div>
   <div id="paras">One last step to create a new account</div>
   <form  id="myForm"  onsubmit="return signup(event)">
-  <input type="text" placeholder="Full Name(As Per Driving License)" id="name" required>
+  <input type="text" placeholder="Full Name(As Per Driving License)" id="name" required autocomplete="off">
   <input type="password" id="pass" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
   <input type="submit" id="btn" value="Register"> 
   </form>

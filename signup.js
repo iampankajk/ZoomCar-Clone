@@ -8,10 +8,7 @@
 
 function signup(e) {
     e.preventDefault();
-    var data = JSON.parse(localStorage.getItem("users1"));
-
-//let arr =JSON.parse(localStorage.getItem("users"))  
-document.getElementById("email").placeholder=`${data[data.length-1].email}`
+    
     let myForm = document.getElementById("myForm");
     // console.log("myForm:",myForm)
     let phone = myForm.phone.value;

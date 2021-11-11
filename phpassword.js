@@ -16,15 +16,15 @@ all_users.forEach(function (user) {
 
 if(pass!=user.pass){
 //flag=1;
-document.getElementById("text").innerHTML="Incorrect Password"
+document.getElementById("text4").innerHTML="Incorrect Password"
 
 }
 else{
-
+alert("ok")
 //location.href ="main.html";
 
 }
 });
 }
-var data = JSON.parse(localStorage.getItem("users"));
-document.getElementById("text2").textContent=`${data[data.length-1].phone}`;
+
+
