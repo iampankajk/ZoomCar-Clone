@@ -175,6 +175,10 @@
             let btn = document.createElement('button')
             btn.innerHTML = "Book Now";
 
+            btn.onclick = ((car)=>{
+                console.log(car);
+            })
+
             center.append(location, name, fuel, Seater, Rating)
             left.append(price, btn)
 
@@ -187,6 +191,8 @@
 
 
     }
+
+  
 let fiveSeater = [];
 let sixSeater = [];
 let sevenSeater = [];
