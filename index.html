@@ -67,7 +67,7 @@
 
         <div class="top">
             <div class="selection">
-                <form action="#">
+                <form onsubmit="searchCar(event)" id="timeForm">
                     <div class="ride-selection pointer" onclick="showPopup()">
                         <span id="trips">Round Trip</span>
                         <i class="down-icon"></i>
@@ -93,6 +93,11 @@
                     <div class="box">
                         <a href="calender.html">
                             <div class="ride-time">
+                                <span id="start_time"></span>
+                                <span class="separator">
+                                    <i class="icon icon-arrow-right"></i>
+                                </span>
+                                <span id="end_time"></span>
 
                             </div>
 

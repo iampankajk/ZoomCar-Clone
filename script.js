@@ -141,3 +141,23 @@ let dropOffLocation = JSON.parse(localStorage.getItem("dropOffLocation"))[0];
 let drop_off = document.querySelector(".drop-off");
 drop_off.innerText = dropOffLocation;
 
+
+// calaender start time
+let start_Date = JSON.parse(localStorage.getItem("start_Date"));
+let start_time = document.getElementById("start_time");
+start_time.innerText = start_Date[0] +" "+ start_Date[1];
+start_time.style.color = "black";
+
+// calender end time
+let end_Date = JSON.parse(localStorage.getItem("end_Date"));
+let end_time = document.getElementById("end_time");
+end_time.innerText = end_Date[0] +" "+ end_Date[1];
+end_time.style.color = "black";
+
+
+
+// search Car Page
+function searchCar(e){
+    e.preventDefault();
+    window.location.href = "Car Database System\\Car database page\\Car Booking Page.html"
+}

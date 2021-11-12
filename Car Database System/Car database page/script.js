@@ -1,10 +1,12 @@
 // getting data
+
+let city = JSON.parse(localStorage.getItem("city"))[0];
 async function getData() {
     let data = await fetch("http://localhost:5000/api/products/");
 
     data = await data.json();
     // console.log(data.Mumbai);
-    showData(data.Delhi);
+    showData(data[city]);
 }
 
 getData();
