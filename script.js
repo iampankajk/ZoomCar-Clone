@@ -110,6 +110,8 @@ function oneWay() {
 
 }
 
+localStorage.setItem("trip",JSON.stringify(["round"]));
+
 if(JSON.parse(localStorage.getItem("trip"))[0]=="round"){
     roundTrip();
 }else{
