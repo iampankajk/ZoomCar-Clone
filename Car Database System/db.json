@@ -59,7 +59,7 @@
                 "location": "0.7Km Mumbai Airport",
                 "name": "Maruti Suzuki",
                 "price": "₹ 1140",
-                "fuel": "Diesel",
+                "fuel": "Petrol",
                 "Seater": "6",
                 "Rating": "5.0 Rating",
                 "img": "https://s3-ap-southeast-1.amazonaws.com/zoomcar/photographs/original/6a75117e054e7d3bbe9ff6e431008679994c1d71.png?1584525114"
@@ -79,7 +79,7 @@
                 "location": "2.3Km New Airport Road, Sham Nagar",
                 "name": "Tata Tiago",
                 "price": "₹ 1120",
-                "fuel": "Diesel",
+                "fuel": "Petrol",
                 "Seater": "7",
                 "Rating": "4.2 Rating",
                 "img": "https://s3-ap-southeast-1.amazonaws.com/zoomcar/photographs/original/cd9baf9b5631dbccda29dbfac1ab4a23a25f7fb6.png?1584525308"
@@ -122,7 +122,7 @@
                 "location": "1.9Km Pune railway station",
                 "name": "Hyundai Creta",
                 "price": "₹ 1500",
-                "fuel": "Diesel",
+                "fuel": "Petrol",
                 "Seater": "5",
                 "Rating": "4.9 Rating",
                 "img": "https://s3-ap-southeast-1.amazonaws.com/zoomcar/photographs/original/20070f9f819b45a90da8e67f51b2d76b59e6c8e7.png?1584525395"
@@ -142,7 +142,7 @@
                 "location": "0.7km Kharadi Bypass Road",
                 "name": "Hyundai Creta",
                 "price": "₹ 1500",
-                "fuel": "Diesel",
+                "fuel": "Petrol",
                 "Seater": "5",
                 "Rating": "4.7 Rating",
                 "img": "https://s3-ap-southeast-1.amazonaws.com/zoomcar/photographs/original/20070f9f819b45a90da8e67f51b2d76b59e6c8e7.png?1584525395"
@@ -185,7 +185,7 @@
                 "location": "2.3Km New Airport Road, Sham Nagar",
                 "name": "Hyundai Creta",
                 "price": "₹ 1500",
-                "fuel": "Diesel",
+                "fuel": "Petrol",
                 "Seater": "7",
                 "Rating": "4.3 Rating",
                 "img": "https://s3-ap-southeast-1.amazonaws.com/zoomcar/photographs/original/20070f9f819b45a90da8e67f51b2d76b59e6c8e7.png?1584525395"
@@ -205,7 +205,7 @@
                 "location": "1.7km Kharadi Bus station Road",
                 "name": "Hyundai Creta",
                 "price": "₹ 1500",
-                "fuel": "Diesel",
+                "fuel": "Petrol",
                 "Seater": "5",
                 "Rating": "4.7 Rating",
                 "img": "https://s3-ap-southeast-1.amazonaws.com/zoomcar/photographs/original/20070f9f819b45a90da8e67f51b2d76b59e6c8e7.png?1584525395"
@@ -238,7 +238,7 @@
                 "location": "2.3Km New Airport Road, Sham Nagar",
                 "name": "Tata Naxon",
                 "price": "₹ 1350",
-                "fuel": "Diesel",
+                "fuel": "Petrol",
                 "Seater": "7",
                 "Rating": "5.0 Rating",
                 "img": "https://s3-ap-southeast-1.amazonaws.com/zoomcar/photographs/original/741d5e6e6b4a35cc2623eaf23e251357903995a1.jpg?1628513745"
@@ -258,7 +258,7 @@
                 "location": "1.7km Kharadi Bus station Road",
                 "name": "Tata Naxon",
                 "price": "₹ 1350",
-                "fuel": "Diesel",
+                "fuel": "Petrol",
                 "Seater": "5",
                 "Rating": "4.3 Rating",
                 "img": "https://s3-ap-southeast-1.amazonaws.com/zoomcar/photographs/original/741d5e6e6b4a35cc2623eaf23e251357903995a1.jpg?1628513745"
