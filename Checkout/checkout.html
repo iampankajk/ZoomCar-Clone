@@ -6,57 +6,103 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>checkout</title>
+    <link rel="stylesheet" href="checkout.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
 </head>
 
 <body>
-    <!DOCTYPE html>
-    <html lang="en">
+    <div class="ranCarnavCheck">
+        <div class="navArrowCheck">
+            <i class="fas fa-arrow-left"></i>
+        </div>
+        <div class="blackNavCheck">
+            <div id="carNavCheck">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>booking Summary</title>
-        <link rel="stylesheet" href="checkout.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-            integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+            </div>
+            <div class="navDateCheck">
+                <div id="navStartCheck">
 
-    </head>
+                </div>
+                <div class="navArrowCheck">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                <div id="navEndCheck">
 
-    <body>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class=ranBigContainer>
+        <div class="trip">
+            <div class="txt1">
+                <h3>Trip Fare (66Kms without Fuel</h3>
+            </div>
+            <div id="tripFare">
 
-        <div class="ranCarnav">
-            <div>
-                <i class="fas fa-arrow-left"></i>
+            </div>
+        </div>
+        <hr>
+        <div class="totalFare">
+            <div class="txt1">
+                <h3>Damage Protection Fee </h3>
+            </div>
+            <div class="ref">
+                <h4> +₹175</h4>
+            </div>
+
+        </div>
+        <hr>
+        <div class="totalFare">
+            <div class="txt">
+                <h3>Total Fare </h3>
+            </div>
+            <div id="totFare">
+
+            </div>
+        </div>
+        <hr>
+
+        <div class="refunds">
+            <div class="txt">
+                <h4> Refundable Deposit </h4>
+                <p>has been waived off for this booking</p>
+            </div>
+
+            <div class=ref>
+                <h4>₹ 0 </h4>
+            </div>
+        </div>
+
+        <hr>
+        <div class="totalFare">
+            <div class="txt">
+                <h3>Final Fare </h3>
+            </div>
+            <div id="finalFare">
+
             </div>
 
         </div>
 
-        <div class="ranCarData">
+    </div>
 
-        </div>
-
-
-        <div id="ranCheckout">
-            <div class="ranCarPrice">
-                Rs. 1679
+    <div id="ranCheckout">
+        <div class="ranCheckoutSummary">
+            <div class="btn">
+                <a href="paymentOption.html"> <button>PROCEED TO PAY </button></a>
             </div>
-            <div class="ranPromo">
-                <a href="#"> <button> <i class="fas fa-percentage"></i> Apply Coupon</button></a>
-            </div>
+            <div id="pay">
 
-            <div class="ranCheckoutSummary">
-                <a href="#"> <button>CHECKOUT SUMMARY</button></a>
             </div>
         </div>
 
-     
+    </div>
 
-    </body>
-
-    </html>
-
+    </div>
 
 </body>
 
 </html>
+<script src="checkout.js"></script>
