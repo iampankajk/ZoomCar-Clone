@@ -26,7 +26,7 @@ function showData(cars) {
 
         let center = document.createElement('p')
 
-        let location = document.createElement('p1')
+        let location = document.createElement('p')
         location.innerText = car.location
 
 
