@@ -1,5 +1,15 @@
-#container {
-  margin-left: 30%;
+#container{
+  margin-left:30%;
+ 
+}
+#heading{
+  font-family: "IBM Plex Sans";
+font-size: 18px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0.16px;
+color: #1f1f1f;
+margin-top: 20px;
 }
 #heading {
   font-family: "IBM Plex Sans";
@@ -71,6 +81,17 @@
   font-size: 18px;
   border-radius: 5px;
 }
+#btn{
+  margin-top: 150px;
+  width: 50%;
+  background-color: #10a310;
+  border-style: none;
+  height: 39px;
+  margin-left: 5%;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+}
 #text {
   color: red;
   font-size: 12px;
@@ -98,17 +119,7 @@ input {
 input:active {
   border: #00c853;
 }
-#btn {
-  margin-top: 280px;
-  width: 50%;
-  background-color: #10a310;
-  border-style: none;
-  height: 39px;
-  margin-left: 5%;
-  color: white;
-  font-size: 18px;
-  border-radius: 5px;
-}
+
 .image {
   width: 29px;
   height: 23px;
