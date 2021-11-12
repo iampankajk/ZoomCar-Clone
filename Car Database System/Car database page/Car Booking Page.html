@@ -7,22 +7,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="car booking.css">
+    <link rel="stylesheet" href="/style.css">
 
 </head>
 
 
 <body>
-    <div id="navbar">
-        <h3 id="logo">
-            <a href="#"><img src="https://www.zoomcar.com/build/98e56e8b0b91e8806885a22ac2bf69a7.png" alt=""></a>
-        </h3>
+     <!-- city-selection-start -->
 
-        <div id="options">
-            <h3><a id="navbar_color" href="#">Become a Host</a></h3>
-            <h3><a id="navbar_color" href="#">ZMS</a></h3>
-            <h3><a id="navbar_color" href="#">Login/Signup</a></h3>
+     <div class="city-box">
+        <div class="city-inner">
+            <div class="city-selection">
+                <div class="city-list">
+                    <div class="title">Select your country/city</div>
+                    <div class="dropdown-wrapper">
+                        <div>
+                            <select name="select_country" id="">
+                                <option value="">Select Country</option>
+                                <option value="india">India</option>
+                            </select>
+                        </div>
+                        <div>
+                            <select name="selected_city" id="selected_city" onchange="confirm()">
+                                <option value="Select City">Select City</option>
+                                <option value="Banglore">Banglore</option>
+                                <option value="Pune"> Pune</option>
+                                <option value="Delhi">Delhi NCR</option>
+                                <option value="Mumbai">Mumbai</option>
+                            </select>
+                        </div>
+
+                    </div>
+                    <button disabled="disabled" class="city-box-btn" onclick="confirmCity()">Confirm</button>
+                </div>
+
+            </div>
         </div>
     </div>
+
+    <!-- city-selection-end -->
+
+
+    <!-- header start -->
+    <div class="header" id="header">
+        <div><img src="/images/ham.png" id="ham" onclick="showSideBar()"></div>
+        <div><a href="/index.html">
+             <img src="/images/nav_logo.png" id="nav_logo">
+        </a>
+           
+        </div>
+        <div id="nav">
+            <ul>
+                <li>Become a Host</li>
+                <a href="/ZMS/ZMS.html">
+                    <li>ZMS</li>
+                </a>
+
+                <li>Login/Signup</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- header end -->
 
     <div id="body">
 
@@ -111,8 +157,70 @@
 
     </div>
 
+    <!-- side-bar-start -->
+
+    <div class="sidebar-component">
+        <div class="sidebar-ovl"></div>
+        <div class="sidebar">
+            <a href="#" class="f-1 a-i not-loggedin">
+                <div class="icon">
+                    <i class="material-icons">
+                        <img src="/images/user.png" class="d-img">
+                    </i>
+                </div>
+                <span>Login or Signup</span>
+            </a>
+            <nav class="list">
+                <a href="#" class="item f-1 a-i" onclick="changeCity()">
+                    <div class="icon">
+                        <i class="material-icons">
+                            <img src="/images/loc.png" class="d-img">
+                        </i>
+                    </div>
+                    <div>
+                        <div>Change city</div>
+                        <div class="sm">Delhi NCR</div>
+                    </div>
+                </a>
+                <a href="#" class="item f-1 a-i">
+                    <div class="icon">
+                        <i class="material-icons">
+                            <img src="/images/supermiler_menu_logo.png">
+                        </i>
+                    </div>
+                    <div>
+                        <div>Supermiler Club</div>
+                    </div>
+                </a>
+                <a href="#" class="item f-1 a-i">
+                    <div class="icon">
+                        <i class="material-icons">
+                            <img src="/images/des.png" class="d-img">
+                        </i>
+                    </div>
+                    <div>
+                        <div>Policies</div>
+                    </div>
+                </a>
+                <a href="#" class="item f-1 a-i">
+                    <div class="icon">
+                        <i class="material-icons">
+                            <img src="/images/call.png" class="d-img">
+                        </i>
+                    </div>
+                    <div>
+                        <div>Help & Support</div>
+                    </div>
+                </a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- side-bar-end -->
+
+
 
 </body>
 
 </html>
-<script src="script.js"></script>
+<script src="carpage.js"></script>

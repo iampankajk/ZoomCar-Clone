@@ -11,6 +11,7 @@ function confirm() {
 
 // after changing the city name
 function confirmCity() {
+    console.log("yes");
     let selected_city = document.getElementById("selected_city").value;
     localStorage.setItem("city",JSON.stringify([selected_city]));  //setting selecting city to local storage
     let city_name = document.querySelector(".city-name");

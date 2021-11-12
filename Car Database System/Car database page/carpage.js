@@ -249,3 +249,74 @@ function addtoBook(c) {
 
 
 }
+
+
+
+
+
+
+
+// enable confirm button function
+function confirm() {
+    let btn = document.querySelector(".city-box-btn");
+    btn.removeAttribute("disabled");
+}
+
+
+// after changing the city name
+function confirmCity() {
+    console.log("yes");
+    let selected_city = document.getElementById("selected_city").value;
+    localStorage.setItem("city",JSON.stringify([selected_city]));  //setting selecting city to local storage
+    let sm = document.querySelector(".sm");
+    sm.innerText = selected_city;
+
+    let city_box = document.querySelector(".city-box");
+    city_box.style.display = "none";
+}
+
+let sm = document.querySelector(".sm");
+
+let selected_city = JSON.parse(localStorage.getItem("city"))[0]; //getting selecting city to local storage
+
+
+// showing city name by getting 
+sm.innerText = selected_city;
+
+// show change city block function
+function changeCity(){
+    let city_box = document.querySelector(".city-box");
+    city_box.style.display = "block";
+    hideSideBar();
+}
+
+
+// Show SideBar Function
+function showSideBar() {
+    let sidebar_component = document.querySelector(".sidebar-component");
+    sidebar_component.style.display = "block";
+
+    let sidebar = document.querySelector(".sidebar");
+    sidebar.style.transform = "translate3d(0%, 0px, 0px)";
+
+    let sidebar_ovl = document.querySelector(".sidebar-ovl");
+    sidebar_ovl.style.opacity = "1";
+    sidebar_ovl.style.pointerEvents = "auto";
+    sidebar_ovl.addEventListener("click", hideSideBar);
+}
+
+
+// Hide SideBar Function
+function hideSideBar() {
+    let sidebar_component = document.querySelector(".sidebar-component");
+    sidebar_component.style.display = "none";
+
+    let sidebar = document.querySelector(".sidebar");
+    sidebar.style.transform = "translate3d(-102%, 0, 0)";
+
+    let sidebar_ovl = document.querySelector(".sidebar-ovl");
+    sidebar_ovl.style.opacity = "0";
+
+    sidebar_ovl.removeEventListener("click", hideSideBar);
+}
+
