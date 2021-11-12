@@ -78,7 +78,7 @@ async function nintyfun() {
 
     data = await data.json();
 
-    let cars = data.Delhi;
+    let cars = data[city];
 
     cars.forEach((e) => {
         if (e.fuel == "Diesel") {
@@ -94,7 +94,7 @@ async function onetwontyfun() {
 
     data = await data.json();
 
-    let cars = data.Delhi;
+    let cars = data[city];
 
     cars.forEach((e) => {
         if (e.fuel == "Petrol") {
@@ -117,7 +117,7 @@ async function five() {
 
     data = await data.json();
 
-    let cars = data.Delhi;
+    let cars = data[city];
 
     cars.forEach((e) => {
         if (e.Seater == 5) {
@@ -135,7 +135,7 @@ async function six() {
 
     data = await data.json();
 
-    let cars = data.Delhi;
+    let cars = data[city];
 
     cars.forEach((e) => {
         if (e.Seater == 6) {
@@ -154,7 +154,7 @@ async function seven() {
 
     data = await data.json();
 
-    let cars = data.Delhi;
+    let cars = data[city];
 
     cars.forEach((e) => {
         if (e.Seater == 7) {
@@ -174,7 +174,7 @@ async function hatchbackcar() {
 
     data = await data.json();
 
-    let cars = data.Delhi;
+    let cars = data[city];
 
     cars.forEach((e) => {
         if (e.Seater == 6 || e.Seater == 7) {
@@ -190,7 +190,7 @@ async function Sedancar() {
 
     data = await data.json();
 
-    let cars = data.Delhi;
+    let cars = data[city];
 
     cars.forEach((e) => {
         if (e.Seater == 5) {
@@ -209,7 +209,7 @@ async function Homecar() {
 
     data = await data.json();
 
-    let cars = data.Delhi;
+    let cars = data[city];
 
     cars.forEach((e) => {
         if (e.Seater == 6 || e.Seater == 7) {
@@ -225,7 +225,7 @@ async function Airportcar() {
 
     data = await data.json();
 
-    let cars = data.Delhi;
+    let cars = data[city];
 
     cars.forEach((e) => {
         if (e.Seater == 5) {
@@ -273,6 +273,7 @@ function confirmCity() {
 
     let city_box = document.querySelector(".city-box");
     city_box.style.display = "none";
+    window.location.reload();
 }
 
 let sm = document.querySelector(".sm");
