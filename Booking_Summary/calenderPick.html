@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calender</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="calenderPick.css">
+</head>
+
+<body>
+    
+    <div class="container-cal">
+        <div class="chooseTime ">
+
+            <h2> <i class="fas fa-arrow-left  subtext"> </i> Choose Trip Start Time </h2>
+
+        </div>
+        <div class="showDate" id="showDate">
+            <div id="leftBoxcal">
+                <div class="lbd"></div>
+                <div class="lbd-time"></div>
+            </div>
+            <div class=" right-arrow">
+                <h3> <i class="fas fa-arrow-right "> </i> </h3>
+            </div>
+            <div id="rightBoxcal">
+                <div class="rbd"></div>
+                <div class="rbd-time"></div>
+            </div>
+
+        </div>
+        <div class="calenderContainer">
+
+
+            <div class="showCalender">
+                <input type="date" oninput="startDate()" id="calendertemp" name="trip-start" value="2021-11-10"
+                    min="2021-11-10" max="2025-12-31">
+            </div>
+
+            <div class="showCalender">
+                <input type="date" oninput="endDate()" id="calendertemp2" name="trip-start" value="2021-11-10" min="2021-11-10"
+                    max="2025-12-31">
+            </div>
+
+        </div>
+
+        <div class="pickTime">
+            <h4>Pick Up Time</h4>
+            <div class="slidecontainer">
+                <input type="range" min="0.0" max="23.00" value="23" class="slider" id="myRange" oninput="timeChange()">
+                <p>Time: <span id="demo"></span></p>
+            </div>
+
+        </div>
+
+        <div class="getContinue">
+            <button onclick="startTrip()">CONTINUE</button>
+        </div>
+        <div class="getContinue2">
+            <button onclick="endTrip()">CONTINUE</button>
+        </div>
+
+    </div  
+
+
+
+</body>
+
+</html>
+
+<script src="calenderPick.js"></script>
