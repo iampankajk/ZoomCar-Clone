@@ -1,5 +1,17 @@
 // getting data
 
+let dropOffLocation = JSON.parse(localStorage.getItem("dropOffLocation"))[0];
+console.log(dropOffLocation);
+
+let dropoff = document.getElementById("top1");
+
+
+let start_Date = JSON.parse(localStorage.getItem("start_Date"));
+start_Date = start_Date[0] + " " + start_Date[1];
+console.log(start_Date);
+
+let pickup = document.getElementById("top2");
+
 let city = JSON.parse(localStorage.getItem("city"))[0];
 async function getData() {
     let data = await fetch("http://localhost:5000/api/products/");
@@ -54,7 +66,8 @@ function showData(cars) {
         btn.onclick = () => {
             addtoBook(car);
         }
-
+        dropoff.append(dropOffLocation);
+        pickup.append(start_Date, dropOffLocation);
         center.append(location, name, fuel, Seater, Rating)
         left.append(price, btn)
 
@@ -81,7 +94,7 @@ async function nintyfun() {
     let cars = data[city];
 
     cars.forEach((e) => {
-        if (e.fuel == "Diesel") {
+        if (e.Seater == 5) {
             ninty.push(e);
         }
     });
@@ -97,7 +110,7 @@ async function onetwontyfun() {
     let cars = data[city];
 
     cars.forEach((e) => {
-        if (e.fuel == "Petrol") {
+        if (e.Seater == 6) {
             onetwonty.push(e);
         }
     });
@@ -243,7 +256,7 @@ if (localStorage.getItem("carShow") === null) {
 }
 
 function addtoBook(car) {
-   
+
     localStorage.setItem("carShow", JSON.stringify(car)); // storing products in the local storage
     window.location.href = "/Booking_Summary/bookingSummary.html";
 
@@ -267,7 +280,7 @@ function confirm() {
 function confirmCity() {
     console.log("yes");
     let selected_city = document.getElementById("selected_city").value;
-    localStorage.setItem("city",JSON.stringify([selected_city]));  //setting selecting city to local storage
+    localStorage.setItem("city", JSON.stringify([selected_city])); //setting selecting city to local storage
     let sm = document.querySelector(".sm");
     sm.innerText = selected_city;
 
@@ -285,7 +298,7 @@ let selected_city = JSON.parse(localStorage.getItem("city"))[0]; //getting selec
 sm.innerText = selected_city;
 
 // show change city block function
-function changeCity(){
+function changeCity() {
     let city_box = document.querySelector(".city-box");
     city_box.style.display = "block";
     hideSideBar();
@@ -320,4 +333,3 @@ function hideSideBar() {
 
     sidebar_ovl.removeEventListener("click", hideSideBar);
 }
-
