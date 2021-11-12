@@ -242,10 +242,10 @@ if (localStorage.getItem("carShow") === null) {
     localStorage.setItem("carShow", JSON.stringify([]));
 }
 
-function addtoBook(c) {
-    let products_cart = JSON.parse(localStorage.getItem("carShow"));
-    products_cart.push(c);
-    localStorage.setItem("carShow", JSON.stringify(products_cart)); // storing products in the local storage
+function addtoBook(car) {
+   
+    localStorage.setItem("carShow", JSON.stringify(car)); // storing products in the local storage
+    window.location.href = "/Booking_Summary/bookingSummary.html";
 
 
 }
