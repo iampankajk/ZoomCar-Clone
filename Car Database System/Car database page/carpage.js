@@ -13,7 +13,15 @@ console.log(start_Date);
 top2.innerText = " start_Time :" + " " + start_Date;
 
 
+if(JSON.parse(localStorage.getItem("trip"))[0]=="round"){
+    let top2 = document.getElementById("top2");
+    top2.style.display = "none";
+}else{
 
+    let top2 = document.getElementById("top2");
+    top2.style.display = "block";
+
+}
 
 // let pickup = document.getElementById("top2");
 
