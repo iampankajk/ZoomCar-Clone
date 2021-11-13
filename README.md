@@ -12,7 +12,7 @@ It was during the final week which is depicted as the construct week. We have do
 
 # <span style="color:red"> Tech Stack Used: </span>
 
- We used Html5,CSS,Advance JavaScript, JSON Server, Fetch Web API, Import/Export,Paytm Payment API,Google API and local-storage for building this Project. We also used tools like GitHub for collaboration of our project,Slack & Zoom as means of a communication channel.
+We used Html5,CSS,Advance JavaScript, JSON Server, Fetch Web API, Import/Export, Paytm Payment API, Google API and local-storage for building this Project. We also used tools like GitHub for collaboration of our project, Slack & Zoom as means of a communication channel.
 
 
 # <span style="color:red"> Details of Tech stack used: </span>
