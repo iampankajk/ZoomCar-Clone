@@ -12,32 +12,32 @@ It was during the final week which is depicted as the construct week. We have do
 
 # <span style="color:red"> Tech Stack Used: </span>
 
-We used Html5,CSS,Advance JavaScript, JSON Server, Fetch Web API, Import/Export, Paytm Payment API, Google API and local-storage for building this Project. We also used tools like GitHub for collaboration of our project, Slack & Zoom as means of a communication channel.
+We have used Html5, CSS, Advance JavaScript, JSON Server, Fetch Web API, Import/Export, Paytm Payment API, Google API and local-storage for building this Project. We also used tools like GitHub for collaboration of our project, Slack & Zoom as means of a communication channel.
 
 
 # <span style="color:red"> Details of Tech stack used: </span>
 
 <b>HTML5:</b>
 
-It is used to build the basic structure of the website. All headings, Paragraphs, links, forms, etc. were structured by HTML.
+we have used to build the basic structure of the website. All headings, Paragraphs, links, forms, etc. were structured by HTML.
 
  <b>CSS:</b>
 
-It is used to add styling to the website. We used Advance CSS for Popup Modal window for login/Sign up, Payment, and all other styling.
+We have used to add styling to the website. We used Advance CSS for Popup Modal window for login/Sign up, Payment, and all other styling.
 
  <b> Advance JavaScript:</b>
 
-It is used to add logical functionalities to the web pages like the on Click function. We have added all the functionalities.
+We have used to add logical functionalities to the web pages like the on Click function. We have added all the functionalities.
 
 <b> Local storage:</b>
 
-We used local-storage as a database for storing users’ data, products details, and cart details.
+We have used local-storage as a database for storing users’ data, products details, and cart details.
 
 <b> Fetch Web API:</b>
-We use Fetch Web API for promise reuest and promise Handling using Async Await etc. 
+We have used Fetch Web API for promise reuest and promise Handling using Async Await etc. 
 
 <b> JSON Server:</b>
-We used JSON Server for preparing Car Database.
+We have used JSON Server for preparing Car Database.
 
 # <span style="color:red"> Experience of team: </span>
 
