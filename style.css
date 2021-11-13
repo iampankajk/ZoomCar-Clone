@@ -807,6 +807,45 @@ input{
     align-items: center;
 }
 
+.d-f{
+    display: flex;
+}
+
+.jc-c{
+    justify-content: center;
+    background-color: black;
+    
+}
+
+.details{
+    overflow: hidden;
+    display: block;
+    color: #fff;
+}
+
+.as-fe{
+    align-self: flex-end;
+}
+.f-1{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+}
+
+.exit-icon{
+    background-image: url("https://cdn4.iconfinder.com/data/icons/arrows-147/40/50-512.png");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+    margin-right: 16px;
+}
+
+/* sidebar-end */
+
 /* home-footer-start */
 
 .home-footer{

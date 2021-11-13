@@ -174,15 +174,57 @@ if(JSON.parse(localStorage.getItem("user"))!==null){
     let user = document.getElementById("user");
     user.style.display = "block";
 
-    let name = document.getElementById("name");
-    name.innerText = user_data[0].name;
+    let nav_name = document.getElementById("nav_name");
+    nav_name.innerText = user_data[0].name;
+
+
+    let side_name = document.getElementById("side_name");
+    side_name.innerText = user_data[0].name;
+
+    let side_email = document.getElementById("side_email");
+    side_email.innerText = user_data[0].email
+
+    let side_phone = document.getElementById("side_phone");
+    side_phone.innerText = user_data[0].mobile;
 
     let user_not_login = document.getElementById("user_not_login");
     user_not_login.style.display = "none";
+
+    let not_logged = document.querySelector(".not-loggedin");
+    not_logged.style.display="none";
+
+    
+    let user_looged_in = document.querySelector(".user-logged-in");
+    user_looged_in.style.display="block";
+
+    let logout = document.querySelector(".logout");
+    logout.style.display = "block";
+
+
 }else{
     let user = document.getElementById("user");
     user.style.display = "none";
 
     let user_not_login = document.getElementById("user_not_login");
     user_not_login.style.display = "block";
+
+    let not_logged = document.querySelector(".not-loggedin");
+    not_logged.style.display="block";
+
+
+    let user_looged_in = document.querySelector(".user-logged-in");
+    user_looged_in.style.display="none";
+
+    pick_up.innerText = "Pick Up City, Airport, Address or Hotel";
+    drop_off.innerText = "Drop Off City, Airport, Address or Hotel";
+
+
+    let logout = document.querySelector(".logout");
+    logout.style.display = "none";
+}
+
+
+function logout(){
+    localStorage.setItem("user",null)
+    window.location.reload()
 }
