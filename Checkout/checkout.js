@@ -16,11 +16,10 @@ let tripFare = document.getElementById("tripFare");
 let totFare = document.getElementById("totFare");
 let finalFare=document.getElementById("finalFare");
 let pay = document.getElementById("pay");
+let damagePrice=document.getElementById("ref1");
 
 let str="";
 function showPay() {
-        let div1 = document.createElement('div');
-        let div2 = document.createElement('div');
         let name = document.createElement('h4');
       
         name.innerText = car_check.name;
@@ -28,43 +27,38 @@ function showPay() {
         let price1 = document.createElement('h3');
         let price2 = document.createElement('h3');
         let price3 = document.createElement('h3');
+        let damage=document.createElement('h3');
 
         carCheck.append(name);
         navStartCheck.append(start_Date);
         navEndCheck.append(end_Date);
-        price.innerHTML = car_check.price;
-        price1.innerHTML = car_check.price;
-        price2.innerHTML = car_check.price;
-        price3.innerHTML = car_check.price;
-
-
-
+     let demo_price = car_check.price;
+     console.log(demo_price);
 
         
-    //     for(let i=0;i<price.length; i++){
-    //       if(price[i]==="₹"){
-    //         continue; 
-    //       } else{
-    //         str+=price[i]; 
-    //       }
-    //     }
-    //  console.log("str",str);
-    //  console.log("Ranjan")
-       
+        for(let i=0;i<demo_price.length; i++){
+          if(demo_price[i]==="₹"){
+            continue; 
+          } else{
+            str+=demo_price[i]; 
+          }
+        }
 
-       
-
-    //     
+        str = Number(str);
+        price.innerHTML = `₹ ${str*0.85}`;   
+        damage.innerHTML = `₹ ${str*0.15}`;   
+        damagePrice.append(damage);
+        price1.innerHTML = `₹ ${str}`; 
+        price2.innerHTML = `₹ ${str}`; 
+        price3.innerHTML = `₹ ${str}`; 
+             
         tripFare.append(price);
         totFare.append(price1);
         finalFare.append(price2)
         pay.append(price3);
 
-
-
-
 }
 showPay(); 
 
-
+localStorage.setItem("totalFare",JSON.stringify(str));
         

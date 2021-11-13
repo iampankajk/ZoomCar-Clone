@@ -1,3 +1,13 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
 .ranCarnav {
     justify-content: center;
     background: black;
@@ -13,7 +23,7 @@
 .ranPayoption {
     width: 30%;
     margin-left: 30%;
-    margin-top: 70px;
+    margin-top: 10%;
 }
 
 .ranCredit{
@@ -59,4 +69,14 @@ hr{
 
 .ranPayLogos img {
     width: 5%;
+}
+#totalFare{
+    color:white; 
+    width        : 70%;
+    margin-left  : 4%;
+    margin-bottom: 0%;
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
 }
