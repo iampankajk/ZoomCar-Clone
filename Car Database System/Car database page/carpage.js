@@ -364,9 +364,10 @@ if(JSON.parse(localStorage.getItem("user"))!==null){
 
     let user_data = JSON.parse(localStorage.getItem("user"));
     console.log(user_data[0].name)
-
+    
     let user = document.getElementById("user");
-    user.style.display = "block";
+    user.style.display = "flex";
+    user.style.alignItems = "center";
 
     let nav_name = document.getElementById("nav_name");
     nav_name.innerText = user_data[0].name;
