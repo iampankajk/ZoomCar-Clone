@@ -1,17 +1,21 @@
 // getting data
 
-let dropOffLocation = JSON.parse(localStorage.getItem("dropOffLocation"))[0];
-console.log(dropOffLocation);
+let pickUpLocation = JSON.parse(localStorage.getItem("pickUpLocation"))[0];
+console.log(pickUpLocation);
 
 // let dropoff = document.getElementById("top1");
-top1.innerText = " Location :" + " " + dropOffLocation;
+top2.innerText = " Location :" + " " + pickUpLocation;
 
 
 let start_Date = JSON.parse(localStorage.getItem("start_Date"));
 start_Date = start_Date[0] + " " + start_Date[1];
 console.log(start_Date);
-top2.innerText = " start_Time :" + " " + start_Date;
+top11.innerText = " start_Time :" + " " + start_Date;
 
+let end_Date = JSON.parse(localStorage.getItem("end_Date"));
+end_Date = end_Date[0] + " " + end_Date[1];
+console.log(end_Date);
+top13.innerText = " End_Time :" + " " + end_Date;
 
 
 
