@@ -164,3 +164,25 @@ function searchCar(e){
     e.preventDefault();
     window.location.href = "Car Database System\\Car database page\\Car Booking Page.html"
 }
+
+
+if(JSON.parse(localStorage.getItem("user"))!==null){
+
+    let user_data = JSON.parse(localStorage.getItem("user"));
+    console.log(user_data[0].name)
+
+    let user = document.getElementById("user");
+    user.style.display = "block";
+
+    let name = document.getElementById("name");
+    name.innerText = user_data[0].name;
+
+    let user_not_login = document.getElementById("user_not_login");
+    user_not_login.style.display = "none";
+}else{
+    let user = document.getElementById("user");
+    user.style.display = "none";
+
+    let user_not_login = document.getElementById("user_not_login");
+    user_not_login.style.display = "block";
+}
