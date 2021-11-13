@@ -3,14 +3,19 @@
 let dropOffLocation = JSON.parse(localStorage.getItem("dropOffLocation"))[0];
 console.log(dropOffLocation);
 
-let dropoff = document.getElementById("top1");
+// let dropoff = document.getElementById("top1");
+top1.innerText = " Location :" + " " + dropOffLocation;
 
 
 let start_Date = JSON.parse(localStorage.getItem("start_Date"));
 start_Date = start_Date[0] + " " + start_Date[1];
 console.log(start_Date);
+top2.innerText = " start_Time :" + " " + start_Date;
 
-let pickup = document.getElementById("top2");
+
+
+
+// let pickup = document.getElementById("top2");
 
 let city = JSON.parse(localStorage.getItem("city"))[0];
 async function getData() {
@@ -27,7 +32,8 @@ let parent = document.getElementById('cont')
 
 function showData(cars) {
     parent.innerHTML = null
-
+        // dropoff.innerHTML = null
+        // pickup.innerHTML = null
     cars.forEach(function(car) {
 
         let div = document.createElement('div')
@@ -37,6 +43,9 @@ function showData(cars) {
         img.src = car.img
 
         let center = document.createElement('p')
+        center.style.margin = "10px";
+        center.style.gap = "5px";
+        center.style.padding = "2px";
 
         let location = document.createElement('p')
         location.innerText = car.location
@@ -53,7 +62,7 @@ function showData(cars) {
         Seater.innerText = car.Seater + " " + "Seater";
 
         let Rating = document.createElement('h4')
-        Rating.innerText = car.Rating
+        Rating.innerText = "🌟" + " " + car.Rating;
 
         let left = document.createElement('h3')
 
@@ -64,10 +73,10 @@ function showData(cars) {
         btn.innerHTML = "Book Now";
 
         btn.onclick = () => {
-            addtoBook(car);
-        }
-        dropoff.append(dropOffLocation);
-        pickup.append(start_Date, dropOffLocation);
+                addtoBook(car);
+            }
+            // dropoff.append(dropOffLocation);
+            // pickup.append(start_Date, dropOffLocation);
         center.append(location, name, fuel, Seater, Rating)
         left.append(price, btn)
 

@@ -129,6 +129,16 @@ Dom part
       margin-left: 30px;
   }
   
+  #cont>div>p>p {
+      margin: 5px;
+      font-size: 14px;
+  }
+  
+  #cont>div>p>h4 {
+      margin: 5px;
+      font-size: 14px;
+  }
+  
   #cont>div>p>p:first-child {
       margin-top: 10px;
       background: #f5f5f5;
@@ -143,6 +153,7 @@ Dom part
   }
   
   #cont>div>h3>h5 {
+      margin-top: 14px;
       white-space: nowrap;
       font-size: 16px;
       font-weight: 500;
