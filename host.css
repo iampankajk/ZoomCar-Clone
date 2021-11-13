@@ -430,3 +430,40 @@ a{
   }
 
 /* what are the zoomcar host user sying?---end */
+
+
+/* stalii have a question-----start------ */
+
+.host-box-8{
+    padding-top:50px;
+    display:grid;
+    grid-template-columns: 300px 800px;
+}
+.host-box-8-L-font{
+    font-size:22px;
+}
+.host-box-8-R{
+    text-align: top;
+   
+    margin:auto;
+    display:grid;
+    grid-template-columns: 700px 100px;
+}
+.host-box-8-R-font{
+    font-size:17px;
+}
+.host-box-8-R-img{
+    text-align: center;
+    width:30px;
+    height: 30px;
+}
+
+.host-box-8-border{
+    border: solid 1.2px #BDBDBD;
+    width: 750px;
+    /* height: 20px; */
+}
+
+
+
+/* stalii have a question-----end------ */
