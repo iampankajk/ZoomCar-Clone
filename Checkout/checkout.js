@@ -38,23 +38,25 @@ function showPay() {
         price3.innerHTML = car_check.price;
 
 
-
+     let demo_price = car_check.price;
+     console.log(demo_price);
 
         
-    //     for(let i=0;i<price.length; i++){
-    //       if(price[i]==="₹"){
-    //         continue; 
-    //       } else{
-    //         str+=price[i]; 
-    //       }
-    //     }
-    //  console.log("str",str);
-    //  console.log("Ranjan")
-       
+        for(let i=0;i<demo_price.length; i++){
+          if(demo_price[i]==="₹"){
+            continue; 
+          } else{
+            str+=demo_price[i]; 
+          }
+        }
+
+        str = Number(str);
 
        
 
-    //     
+       
+
+        
         tripFare.append(price);
         totFare.append(price1);
         finalFare.append(price2)
