@@ -125,7 +125,7 @@ We are very thankful for the support of my teammates and instructor for the comp
 [Medium](https://medium.com/@iampankajk/zoomcar-com-clone-67ed397258e6)
 
 - # Nikita Parekh (fw11_255)
-<img src="https://lh3.googleusercontent.com/aiiuHb6bCTDB8vz9qd_zZyOSliEHiMGVcMfZO4_gnnnXpPA0EHXR8gDEX2lwg8FJpKHqwalAQ8uEYb7MCNJkU2w1Fp4FrdGjjFLfG3cz5MGe94g3JNGN-KYorOgbX_dKZ4jgqv2449yyimbDWMkGfBDvut-5kQBAjOF5wptLPWT_KKSQaee7gwRXnwB7FsR9qIdycKyMvCGavg9FXOjPFOOPnFCXbGl1plhvpve0t-kCmtbL6nXFHQwSxbsTwGgO2HDEUl6qlq9WXmtMseQRqUvLDHzPK7nWstiRSGG8mEIw3V18wRXJQR27FgjNsyIo_bkY3nBBp1ofaXmHkW4v5Rx_KFrl2v55zAC-L9obJjU5dgS3BXrDYDHZEur1ge3Im3THzfZDhXl05ay3t7xSlutKhyjxuuPcaQNM7eW6Tj4Pj8oHj1_ftRvPRuC3ZaF3V6HfxQk-AwgT8API0-hgFgcU-Le-C6WdTk9xCCA7f01e_LRnoPWaEi2w-PaeJFqK8bkT1NO6ch4JWP2R0MgdIXWCmcLY6vqSQ1MJhStJ9ETT893G-7gtYl83aROm_giJhW9xw30FfCtBXck9PCbR2UFwYI-ECcUq8ILUxf2kfiSL5DnMGEufDK-Sbw-s7lP3d-0WPaysivXs1gj4GYC0liGThOsMk7tcP59UI5PQ5hvZutWJOYgIFxpyVgzizxKfDT_lPA4XLgw7wSyWXl1ryrI=w512-h511-no?authuser=1" alt="drawing" style="width:200px;" style="height:200px;"/>
+<img src="(https://user-images.githubusercontent.com/91541289/141653792-c1d62199-7488-4e7f-8562-bd507d56219e.jpeg" alt="drawing" style="width:200px;" style="height:200px;"/>
 
 [Linkedin](https://www.linkedin.com/in/nikitaparekh00/)
 
