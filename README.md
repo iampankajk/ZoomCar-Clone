@@ -116,7 +116,7 @@ We are very thankful for the support of my teammates and instructor for the comp
 # <span style="color:red"> Team Members: </span>
 
 - # Pankaj Kumar (fw12_276)
-<img src="https://lh3.googleusercontent.com/imAl-wFlLR5ujYzMdhJ-XIwxZSALpgKfTTOWrUhxbL2uFc2F0j41FKrf07cS8xTQTGs2o1OSaLJngSas763opmHkjxwKoJEH5wKMZdAFQCsjXfvpsP5X53Rw6QD2omqGPv--vUhWrRaU9vm6U3OT2aY9g4k3rLRu2bLMu8GvXbKDhBqufBCHdi5AnpztaFf677kPL28HwRaf-FtcoXk5ofOkgAFojSsTOiU77dZZOVhkHYQqHDzpUD_jj1Hct4Ei-dod-R_x5K_76jAKPRrikJ-TtrDB1y1HKfoOPfAtrMHZoGFn5N4c_iUe8s1p2iEf21RJRq9K2loMxXpxmJ3y1TUVJB11yfhSCY1Uvp8fHEddbN4GntSu_myO_N1h1IBaDEvzgI9w7zWpI1XJ91_RELGOXdzITHl_QCu6DUqNwxg92mKFDuMWE1lweFerhdbf5wMql9HxRDa2XobMa0riRKhuQOF8CH2JOp6ujdRtDNVLlxUTen7o_5bzhHRhGIOjtnrg4YhgRO4v7NTIetowLhNDyQ4QRl3qlixFgsz-y2oHfpqa78YPFwAJxHa6I_Yn3H4cjxEhOBbeWf0oa-pQjVWDIoA183QBT9ywCnn-3L-G92HPBLu7Zvjni5AgWqE3vHNq9-S8iWazPNW7MOAOHYwObVP1dhOh_6f9qMjGRsWD6EJGeTzryRcKOPeiVRjxCICge5n46dfpJdh-84rzrM8=w743-h866-no?authuser=1" alt="drawing" style="width:200px;" style="height:200px;"/>
+![WhatsApp Pankaj Image 2021-11-13 at 7 50 05 PM](https://user-images.githubusercontent.com/91541289/141654994-66b34ad4-9629-4f95-bfc1-f3f331191d8e.jpeg)
 
 [Twitter](https://twitter.com/realpankajk)
 
@@ -125,8 +125,7 @@ We are very thankful for the support of my teammates and instructor for the comp
 [Medium](https://medium.com/@iampankajk/zoomcar-com-clone-67ed397258e6)
 
 - # Nikita Parekh (fw11_255)
-- ![WhatsApp Nikita Image 2021-11-13 at 7 51 25 PM](https://user-images.githubusercontent.com/91541289/141653792-c1d62199-7488-4e7f-8562-bd507d56219e.jpeg)
-<img src="(https://user-images.githubusercontent.com/91541289/141653792-c1d62199-7488-4e7f-8562-bd507d56219e.jpeg" alt="drawing" style="width:200px;" style="height:200px;"/>
+![WhatsApp Nikita Image 2021-11-13 at 7 51 25 PM](https://user-images.githubusercontent.com/91541289/141654993-c8d58a91-2473-4e09-9ce0-9bfd25ab918a.jpeg)
 
 [Linkedin](https://www.linkedin.com/in/nikitaparekh00/)
 
@@ -135,7 +134,7 @@ We are very thankful for the support of my teammates and instructor for the comp
 [Medium]()
 
 - # RANJAN (FW12_053)
-<img src=" https://lh3.googleusercontent.com/DUvSue7i5j687ci__ONrPh7VFQDQmt0eRCdhPgG2v-5hNZy-AJUIypmE-PXSpek9S5yitF0RwVloD1n5x2zL4LglujhRI6DI2YSrbwtlUKkoNfFLCDlQyR9MsviYJUYJhCO3Vq1cyZZfHiAACIp1IBaNw8W3Pm9gAuPCuugyp271BBgqwZylzXIO1dZYtMMLIjAlFM3HqQ2nQRuvDYaKypYeuu15vCxp7cNznPK7NtWOKgEIsajGZCVyBKHXVt0FAcJH6Xlk_tGENnu3FHQbvwcds6J-blI_pF15H41UfpVNPvf9mAJ2n2AcgjeAqCiqFz9NaGnl65wBe854g0NIRDY-dZsjxqlkwtIYMFLsgLpa6OQLkbokrsEzuK9ulOHhUdeBNaDRqc4MIwiYlTpiv5nEGhA-4tDhbBerSpkJUBzYvna_NLGJ1b2bZP3E9zdnXnh-mNumHO_Zq-_tNAYzrExKuKtBuuGo25fmSM33GVQ_6FeYDISPGHDjCfu49nBQf98OjSBFkwu7uC7PAfk0ISUWeANf9AormwAo5ZnHF2lwOdlSi8RuDpNXpE-ymZpckE09qBZB0C1OgTFKDTGKRElg96ryZ8Iv8P8kf1Mq239CN2ABgsZxtYF97rV4whpDltPj3JAuKdUu07-92G--u9Rh8fk4gsLUjKXphj5QT24I2JrwRQfKygUBmGDnTQMpjnPj9tbbWYo6_yx_yY0pBVo=w432-h577-no?authuser=0 " alt="drawing" style="width:200px;" style="height:200px;"/>
+![20211013_104347-removebg-preview (1)](https://user-images.githubusercontent.com/91541289/141654997-f5d7527f-292b-4e7d-844a-868ce935c6a2.png)
 
 [Linkedin](www.linkedin.com/in/ranjan-kumar-thakur-47a65662)
 
@@ -145,7 +144,7 @@ We are very thankful for the support of my teammates and instructor for the comp
 
 
 - # Mithilesh Kumar (fw11_268)
-<img src="https://lh3.googleusercontent.com/zDnM6PQbwFLLy1G7aW0rn0vCCs7T_clMyWnNcIEbjmp5WWprPVer30_79QegD458zwvWMcyvhF3u9CgCELgbTVv6fv-Y55LOY9RjaRFHC6oMIaYCkx5QJb3Nx1rs7v5NWF0BxVEq3shdSJOYMOfU6RuC2DZa6Ou2CGU7grR_k07UArYQ12sEof0TrlznBO_Vy9EUeOBQy6tKb5V3tWkPVzLRFM5XYRS54V9qvaHBkMVEq2R4XsognDeJfSx5KqYuPYYSLcPFkipGntJenSGBKP7WboelSsudRvIKMVyAfK0JIy1hfREZHdKoiXbjtvXLrOb2fVq38ME_sbzC9QWeumqtUW4vcpDgtMm9KFW6wPld5WQxP2Kr6nDv4Ga6vXWQJw0E7xIKvSmPD0wcM-7GGNKcRwfSdriJLiMTawsakduZUzcjUhiefUcqo96GQRDjmonDdzwY9E5OW-f4WomGd5cEJSK_XXchDBb5aWQbTb04POT9EG9TCr3MgGaqZg6VcWRpc4MJs8j9tTbZjPqjdAvbAorvmTjxDuH-QecG-mgHJ1_WzyQ-R5TRzuAxq58zOvVMfmGK3ofTR4YROet8dyddJXrOAfqE-1jSaRbGRKGYkt2TBTRiLPVy64gq6_JK8s7Xv4B0lf4fEgdAl8Qb17KZLHFSVjuFV4d9kPmhoY7kh7j45uNMATjgLwz64EG43QhaeCOwrsnJ0QGImu_MikU=w336-h413-no?authuser=1" alt="drawing" style="width:200px;" style="height:200px;"/>
+![WhatsApp Mithilesh Image 2021-11-13 at 7 52 07 PM](https://user-images.githubusercontent.com/91541289/141654992-a9296907-a8a7-4f83-b8d6-4466632456f8.jpeg)
 
 [Linkedin]()
 
@@ -154,7 +153,7 @@ We are very thankful for the support of my teammates and instructor for the comp
 [Medium]()
 
 - # Raoji Patil (Fw11_170)
-<img src="https://lh3.googleusercontent.com/_2jPkkvP6fH0h1qzFr9ruoPuxsffQiqMOua9PtmGlJ4W0OEnXE-62C9AB87QGCI_KqT-0QldO_-9uGIt3nsON3fUmq-UFLUjpN45Jt6LRfwenyQ9SaZDmKA5l_x5CTFHyF5Sj4-1oLfYH5uuhaWeDO-hru4YUaWKsREMsbPH9OYzYYTqkAqWKFkXLgvyVklTmrHTlsweJm1cbqGZTJbaqZYVylZero-3ts7JLitK8cHSl3j_Rxqsu4tZaZ_u1DiIz3En06FlL34JqwkHpiJywAFAAG-wIwZIYAsoNcaPH2FkMYDfHhSVUfoOmM0gGo-KjNoIT6JAH9YjIdQChFfjsPATqJjxlfgwf1b6ZUiPAOtHzXXrvH7d8n0QEmHBTvPLb7ijb9ykPDC1JbXz5LFPS2u85MrSp9rq5Cdyu-EibO-BNkh20eauD4BN3I1gCvAH235hp4Po0ila1UPL4uOiBZNoJrP-530gyru5DAW7yfpKUY_C2mloDURymqNIWt3Z_W-4XeXNyf5-D3ZStJzNSFnplsVmm32W4vdyE4ZuYhnR43QSlkTCFkTO18OL5vL6cvpsF5zNnLseUw-_4Qg_ESDTVWZqTdTP1O6MbViznKPC3sAi8_Ux6iNi9c64wOxkx74UOLePRDXSScjkQ9-htOquwsKUN7mAgt40OodGacSlsi2c7WVfrAbYBJw-eL_i3V__Sk9IyFDx75f4FCNu8fU=w635-h866-no?authuser=1" alt="drawing" style="width:200px;" style="height:200px;"/>
+![WhatsApp Raoji Image 2021-11-13 at 7 56 31 PM](https://user-images.githubusercontent.com/91541289/141654996-fac9822d-6873-45a9-adb7-7cf4ab94f31f.jpeg)
 
 [Linkedin](https://www.linkedin.com/in/raoji-patil-3355aa181/)
 
@@ -163,7 +162,7 @@ We are very thankful for the support of my teammates and instructor for the comp
 [Medium]()
 
 - # Priyanshi Tiwari (fw12_081)
-<img src="https://lh3.googleusercontent.com/5ChvDJkqzlCqxSPvRe5ToACjZVhG2ZJ03je1IRBLLLqIHpNyf8lEnXiZWfTpRqIdilx9XEmFqchP61ygGkekF_EnswGgbFAfBNrLx6-UE3Ky2cUhFbmSEbflZ4ZpSb8fc8FVRxllnu4XzMeDcH05q898XVmnJUqKC48DfU0w6juQa9mhhEdqb5N9sv3do51kee3YzsyKXRQaiY8qnpFq6Ost21TJ49nxY6vzRGb7hJ9bZqFu5mTJV0BOQ7Y90tiniG9Dphe9WuEcLTQeeRPnfwgMbgI8PCBa6UdmReJX44LYnJbTEOVqedP5mrKkfOoxsoQlzJ7GjQ8JQiKWYW0Htr6e4u84c4GehmGFCvJzirqGthBk5UyfoPB4w7QxOcXl4w3-c2-YrqmrLt9eq7XrMyS4JMQ2D31nal6UJMeFv8lMFAZfIWZampi635TsnsoiVN9YtPJwQE0zf7WrgPIclhhlBhnJam8ySUc0oL7kL5vPeatJmKainzaZRUZmxlStlJi394KFxLr3xCWoMFQzEBxdOS0Q7CtgZ3iyydiVD9VDASlydzfEawB1DKSU61L9c5BUkyyNcWqvHdwGqWG0tS6dvjli1kvOx5VKQUJhRdNQBEdO6R5LLbgbUjNIFqtecUQvGg_RkTBg8H04fkb-irBquPbQot4wJ8bW0DJnIFpi-1zm1gg38LzsNqjYR8QqotYtX3LOX6xxtWTI76d8UWE=w375-h495-no?authuser=1" alt="drawing" style="width:200px;" style="height:200px;"/>
+![WhatsApp Priyanshi Image 2021-11-13 at 7 53 15 PM](https://user-images.githubusercontent.com/91541289/141654995-dd3c0d86-80dc-41b1-a0e9-08eda6177862.jpeg)
 
 [Linkedin](https://www.linkedin.com/in/priyanshi-tiwari-493357192)
 
