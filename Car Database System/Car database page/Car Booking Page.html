@@ -49,23 +49,24 @@
     <!-- city-selection-end -->
 
 
-    <!-- header start -->
-    <div class="header" id="header">
+     <!-- header start -->
+     <div class="header" id="header">
         <div><img src="/images/ham.png" id="ham" onclick="showSideBar()"></div>
-        <div>
-            <a href="/index.html">
-                <img src="/images/nav_logo.png" id="nav_logo">
-            </a>
-
-        </div>
+        <div><img src="/images/nav_logo.png" id="nav_logo"></div>
         <div id="nav">
             <ul>
-                <li>Become a Host</li>
-                <a href="/ZMS/ZMS.html">
-                    <li>ZMS</li>
+                <!-- <li>Become a Host</li> -->
+                <a href="/">Become a Host</a>
+                    <a href="/ZMS/ZMS.html">ZMS</a>
+                
+                <a href="/Login&Signup/signup.html" id="user_not_login">
+                     <li id="login">Login/Signup</li>
                 </a>
-
-                <li>Login/Signup</li>
+               
+                <li id="user">
+                    <a href="#" id="nav_name"></a>
+                    <i class="icon-user"></i>
+                </li>
             </ul>
         </div>
     </div>
@@ -165,66 +166,83 @@
 
     </div>
 
-    <!-- side-bar-start -->
+   <!-- side-bar-start -->
 
-    <div class="sidebar-component">
-        <div class="sidebar-ovl"></div>
-        <div class="sidebar">
-            <a href="#" class="f-1 a-i not-loggedin">
+   <div class="sidebar-component">
+    <div class="sidebar-ovl"></div>
+    <div class="sidebar">
+        <a href="/Login&Signup/signup.html" class="f-1 a-i not-loggedin">
+            <div class="icon">
+                <i class="material-icons">
+                    <img src="/images/user.png" class="d-img">
+                </i>
+            </div>
+            <span>Login or Signup</span>
+        </a>
+
+        <a href="#" class="user-logged-in">
+            <div class="d-f jc-c">
+                <div class="details f-1 as-fe">
+                    <h3 id="side_name">Pankaj Kumar</h3>
+                    <div id="side_email">raipankaj150@gmail.com</div>
+                    <div id="side_phone">8448669636</div>
+                </div>
+
+            </div>
+
+        </a>
+        <nav class="list">
+            <a href="#" class="item f-1 a-i" onclick="changeCity()">
                 <div class="icon">
                     <i class="material-icons">
-                        <img src="/images/user.png" class="d-img">
+                        <img src="/images/loc.png" class="d-img">
                     </i>
                 </div>
-                <span>Login or Signup</span>
+                <div>
+                    <div>Change city</div>
+                    <div class="sm">Delhi NCR</div>
+                </div>
             </a>
-            <nav class="list">
-                <a href="#" class="item f-1 a-i" onclick="changeCity()">
-                    <div class="icon">
-                        <i class="material-icons">
-                            <img src="/images/loc.png" class="d-img">
-                        </i>
-                    </div>
-                    <div>
-                        <div>Change city</div>
-                        <div class="sm">Delhi NCR</div>
-                    </div>
-                </a>
-                <a href="#" class="item f-1 a-i">
-                    <div class="icon">
-                        <i class="material-icons">
-                            <img src="/images/supermiler_menu_logo.png">
-                        </i>
-                    </div>
-                    <div>
-                        <div>Supermiler Club</div>
-                    </div>
-                </a>
-                <a href="#" class="item f-1 a-i">
-                    <div class="icon">
-                        <i class="material-icons">
-                            <img src="/images/des.png" class="d-img">
-                        </i>
-                    </div>
-                    <div>
-                        <div>Policies</div>
-                    </div>
-                </a>
-                <a href="#" class="item f-1 a-i">
-                    <div class="icon">
-                        <i class="material-icons">
-                            <img src="/images/call.png" class="d-img">
-                        </i>
-                    </div>
-                    <div>
-                        <div>Help & Support</div>
-                    </div>
-                </a>
-            </nav>
-        </div>
+            <a href="#" class="item f-1 a-i">
+                <div class="icon">
+                    <i class="material-icons">
+                        <img src="/images/supermiler_menu_logo.png">
+                    </i>
+                </div>
+                <div>
+                    <div>Supermiler Club</div>
+                </div>
+            </a>
+            <a href="#" class="item f-1 a-i">
+                <div class="icon">
+                    <i class="material-icons">
+                        <img src="/images/des.png" class="d-img">
+                    </i>
+                </div>
+                <div>
+                    <div>Policies</div>
+                </div>
+            </a>
+            <a href="#" class="item f-1 a-i">
+                <div class="icon">
+                    <i class="material-icons">
+                        <img src="/images/call.png" class="d-img">
+                    </i>
+                </div>
+                <div>
+                    <div>Help & Support</div>
+                </div>
+                <div>
+            </a>
+            <div class="item a-i logout">
+                <i class="exit-icon" onclick="logout()"></i>
+                Logout
+            </div>
+        </nav>
     </div>
+</div>
 
-    <!-- side-bar-end -->
+<!-- side-bar-end -->
 
 
 

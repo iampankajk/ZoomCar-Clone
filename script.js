@@ -166,6 +166,8 @@ function searchCar(e){
 }
 
 
+// user logged in or logged out
+
 if(JSON.parse(localStorage.getItem("user"))!==null){
 
     let user_data = JSON.parse(localStorage.getItem("user"));
@@ -209,7 +211,7 @@ if(JSON.parse(localStorage.getItem("user"))!==null){
     user_not_login.style.display = "block";
 
     let not_logged = document.querySelector(".not-loggedin");
-    not_logged.style.display="block";
+    not_logged.style.display="flex";
 
 
     let user_looged_in = document.querySelector(".user-logged-in");
