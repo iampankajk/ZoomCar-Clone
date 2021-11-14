@@ -54,13 +54,31 @@ This entire journey of making the project was awesome. We have learned lots of t
 <img width="377" alt="Home page" src="https://user-images.githubusercontent.com/91541289/141655245-3fca0980-bd2c-4ef8-975a-dea92564f3f5.png">
 
 - ## <span style="color:blue"> Home Page-Footer </span>
+
 <img width="377" alt="Home_footer" src="https://user-images.githubusercontent.com/91541289/141655232-50468202-ac61-4470-8ce6-fc01155fb9a8.png">
+
+- ## <span style="color:blue"> ZMS Page </span>
+
+<img width="400" alt="zms 1" src="https://user-images.githubusercontent.com/91541289/141674278-02cfc5da-d0b5-4bda-934c-026d9874a218.png">
+
+- ## <span style="color:blue"> ZMS Footer Page </span>
+
+ <img width="391" alt="zms footer" src="https://user-images.githubusercontent.com/91541289/141674279-2037acee-01c0-4c3c-bc05-b14f49cd4f38.png">
+ 
+ - ## <span style="color:blue"> Become a Host Page </span>
+  
+ <img width="397" alt="host-1" src="https://user-images.githubusercontent.com/91541289/141674282-ef372701-6cf6-4928-a4e3-5ca4f8c66079.png">
+ 
+ <img width="400" alt="host-2" src="https://user-images.githubusercontent.com/91541289/141674276-cd1681cb-dfa3-4e24-a502-5cf7e912f9da.png">
+ 
+ <img width="393" alt="host -3" src="https://user-images.githubusercontent.com/91541289/141674281-7748cb09-ae62-4fc9-a791-60103ce2fe8b.png">
 
 - ## <span style="color:blue"> Home Page-Login/Signup </span>
 
 <img width="400" alt="login-SignUP" src="https://user-images.githubusercontent.com/91541289/141655524-89192b9d-b115-4c41-84cd-3a46206e67a7.png">
 
 - ## <span style="color:blue"> Trip Booking-Select City </span>
+
 <img width="400" alt="city " src="https://user-images.githubusercontent.com/91541289/141655244-ba41281a-fc77-4549-b960-30acb7f9f921.png">
 
 - ## <span style="color:blue"> Trip Booking-Pickup and DropOff Location </span>
@@ -74,7 +92,6 @@ This entire journey of making the project was awesome. We have learned lots of t
 - ## <span style="color:blue"> Selected Car Details </span>
 
 <img width="393" alt="car " src="https://user-images.githubusercontent.com/91541289/141655240-57eb44bb-36d4-4102-93a3-d39ac426d716.png">
-
 
 - ## <span style="color:blue"> Selected Car Payment BreakUp </span>
 
@@ -140,7 +157,7 @@ We are very thankful for the support of my teammates and instructor for the comp
 
 [Medium]()
 
-- # RANJAN (FW12_053)
+- # Ranjan Kumar Thakur (FW12_053)
 ![20211013_104347-removebg-preview (1)](https://user-images.githubusercontent.com/91541289/141654997-f5d7527f-292b-4e7d-844a-868ce935c6a2.png)
 
 [Linkedin](www.linkedin.com/in/ranjan-kumar-thakur-47a65662)
@@ -150,7 +167,7 @@ We are very thankful for the support of my teammates and instructor for the comp
 [Medium](https://medium.com/@ranjankumar1757/zoom-car-clone-learning-purpose-65675e5c064f)
 
 
-- # Mithilesh Kumar (fw11_268)
+- # Mithlesh Kumar (fw11_268)
 ![WhatsApp Mithilesh Image 2021-11-13 at 7 52 07 PM](https://user-images.githubusercontent.com/91541289/141654992-a9296907-a8a7-4f83-b8d6-4466632456f8.jpeg)
 
 [Linkedin]()
