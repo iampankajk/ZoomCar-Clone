@@ -157,7 +157,7 @@ We are very thankful for the support of my teammates and instructor for the comp
 
 [Medium]()
 
-- # Ranjan Kumar Thakur (FW12_053)
+- # Ranjan Kumar Thakur (fw12_053)
 ![20211013_104347-removebg-preview (1)](https://user-images.githubusercontent.com/91541289/141654997-f5d7527f-292b-4e7d-844a-868ce935c6a2.png)
 
 [Linkedin](www.linkedin.com/in/ranjan-kumar-thakur-47a65662)
